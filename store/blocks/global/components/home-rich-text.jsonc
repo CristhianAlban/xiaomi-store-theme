@@ -1,0 +1,7 @@
+{
+    "rich-text#test" :{
+        "props": {
+            "text":"texto de prueba"
+        }
+    }
+}

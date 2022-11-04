@@ -1,0 +1,9 @@
+.headerRowBackground--header__middle,
+.headerRowBackground--header__top{
+    background-color: #1c1c1c;
+}
+.headerRowContentContainer--header__top{
+    height: 37px;
+    padding: 0 25px;
+}
+

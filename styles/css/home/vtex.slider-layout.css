@@ -1,0 +1,7 @@
+.sliderTrackContainer--home__slider{
+    /* margin-top: 18px;
+    transform: translateY(-30px); */
+}
+.imageElement--home__slider{
+    max-height: none!important;
+}

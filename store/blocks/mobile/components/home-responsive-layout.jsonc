@@ -1,0 +1,8 @@
+{    
+  "responsive-layout.mobile#home__info--mobile":{
+    "title":"Responsive layout mobile",
+    "children":[
+      "rich-text#home__info--mobile"
+    ]
+  } 
+}

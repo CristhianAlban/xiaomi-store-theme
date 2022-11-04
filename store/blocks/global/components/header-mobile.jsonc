@@ -1,0 +1,34 @@
+{
+    "header-layout.mobile": {
+        "title":"Header Mobile",
+        "children": [
+          "header-row#header__top",
+          "header-row#header__middle"      
+        ]
+      },
+      "login":{
+        "props": {
+          "emailAndPasswordTitle": "LOG-IN",
+          "accessCodeTitle": "Acess Code LOG-IN",
+          "emailPlaceholder": "e-mail",
+          "passwordPlaceholder": "password",
+          "showPasswordVerificationIntoTooltip": true,
+          "showIconProfile": true
+        }
+      },
+      "header-force-center#header__middle":{
+        "children":[
+          "logo#header__top--logo"
+        ]
+      },
+      "header-row#header__middle":{
+        "title": "Header medio",
+        "children":[      
+          //"header-force-center#header__top"
+          "drawer#header__mobile--menu"
+        ],
+        "props":{
+          "blockClass": "header__middle"
+        }
+      }
+}

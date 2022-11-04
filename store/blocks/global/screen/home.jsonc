@@ -1,0 +1,10 @@
+{
+  "store.home": { 
+    "blocks": [
+      "list-context.image-list#home__slider--main",      
+      "flex-layout.row#home__section--one",
+      "flex-layout.row#home__info--responsive",
+      "rich-text#test"
+    ]
+  } 
+}
