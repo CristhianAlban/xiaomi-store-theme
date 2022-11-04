@@ -2,8 +2,7 @@
     "flex-layout.row#home__section--one": {
         "title": "Section one",
         "children": [
-            //"responsive-layout.desktop#home__main-slider--desktop"
-            //"responsive-layout.mobile#home__main-slider--mobile"
+            "flex-layout.col#section__one--prom"
         ]
     },
     "flex-layout.row#home__info--responsive": {
@@ -14,7 +13,34 @@
             "responsive-layout.tablet#home__info--tablet",
             "responsive-layout.desktop#home__info--desktop"            
         ]
+    },
+    "flex-layout.col#section__one--prom":{
+        "title": "container prom",
+        "children":[
+            "flex-layout.row#section_one-prom--row",
+            "flex-layout.row#section_one-prom--bannerFw"
+        ]
+    },
+    "flex-layout.row#section_one-prom--row": {
+        "title": "container prom row",
+        "children":[
+            "image#home__image--prom1",
+            "image#home__image--prom2",
+            "image#home__image--prom3"
+        ],
+        "props": {
+            "blockClass": "section_one-prom--row"
+        }
 
+    },
+    "flex-layout.row#section_one-prom--bannerFw":{
+        "title": "container prom bannerFw",
+        "children":[
+            "image#home__image--prom4"
+        ],
+        "props": {
+            "blockClass": "section_one-prom--row"
+        }
     }
 
 }

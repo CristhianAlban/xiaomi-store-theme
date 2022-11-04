@@ -1,0 +1,50 @@
+{
+  "image#home__image--prom1": { 
+    "title": "Imagen de Home",                                  
+    "props": {        
+      "src": "assets/img/home__img-prom1.jpg",                                       
+      "blockClass": "home__image",
+      "link": {                                                 
+        "url": "https://www.google.com/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#home__image--prom2": { 
+    "title": "Imagen de Home",                                  
+    "props": {        
+      "src": "assets/img/home__img-prom2.jpg",                                       
+      "blockClass": "home__image",
+      "link": {                                                 
+        "url": "https://www.google.com/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#home__image--prom3": { 
+    "title": "Imagen de Home",                                  
+    "props": {        
+      "src": "assets/img/home__img-prom3.jpg",                                       
+      "blockClass": "home__image",
+      "link": {                                                 
+        "url": "https://www.google.com/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#home__image--prom4": { 
+    "title": "Imagen de Home",                                  
+    "props": {        
+      "src": "assets/img/home__img-prom4.jpg",                                       
+      "blockClass": "home__image",
+      "link": {                                                 
+        "url": "https://www.google.com/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  }
+}
