@@ -1,7 +1,7 @@
 {
   "vendor": "itgloberspartnercl",
   "name": "xiaomi-store-theme",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
