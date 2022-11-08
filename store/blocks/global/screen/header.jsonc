@@ -26,7 +26,7 @@
       "link#header__link--shipping",
       "search-bar#header__search",
       "header-spacer",
-      "login",
+      "login#desktop",
       "minicart.v2"
     ],
     "props":{
@@ -63,5 +63,18 @@
     "props":{
       "openAutocompleteOnFocus":true
     }    
+  },
+  "login#desktop":{
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": false,
+      "iconLabel": " INICIAR SESIÓN",
+      "hideIconLabel": false,
+      "logInButtonBehavior": "popover"
+    }
   }
 }
