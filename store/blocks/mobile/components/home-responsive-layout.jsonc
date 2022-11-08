@@ -1,8 +1,28 @@
 {    
-  "responsive-layout.mobile#home__info--mobile":{
+  "responsive-layout.mobile#menu__mobile--bottom":{
     "title":"Responsive layout mobile",
     "children":[
-      "rich-text#home__info--mobile"
+      "sticky-layout#menu__mobile--bottom"
+    ],
+    "props":{
+      "blockClass": "menu__mobile--bottom"
+    }
+  },
+  "sticky-layout#menu__mobile--bottom":{
+    "props": {
+      "position": "bottom",
+      "blockClass": "menu__mobile--bottom"
+    },
+    "children": [
+      "flex-layout.row#header__mobile--bottom"      
     ]
-  } 
+  } ,
+  "flex-layout.row#header__mobile--bottom":{
+    "children": [
+      "drawer#header__mobile--menu",
+      "drawer#header__mobile--search",      
+      "login",
+      "minicart.v2"
+    ]
+  }
 }

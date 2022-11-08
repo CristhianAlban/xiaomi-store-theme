@@ -2,7 +2,7 @@
     "header-layout.mobile": {
         "title":"Header Mobile",
         "children": [
-          "header-row#header__top",
+          //"header-row#header__top",
           "header-row#header__middle"      
         ]
       },
@@ -25,10 +25,10 @@
         "title": "Header medio",
         "children":[      
           //"header-force-center#header__top"
-          "drawer#header__mobile--menu"
+          "link#header__link--shipping"
         ],
         "props":{
-          "blockClass": "header__middle"
+          "blockClass": "header__top"
         }
       }
 }

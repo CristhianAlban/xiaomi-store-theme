@@ -1,0 +1,7 @@
+{
+    "drawer#header__mobile--search":{
+        "children": [
+            "search-bar#header__search"
+        ]
+    }
+}

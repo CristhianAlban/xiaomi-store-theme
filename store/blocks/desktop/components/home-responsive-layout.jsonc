@@ -3,6 +3,9 @@
     "title":"Responsive layout info desktop",
     "children":[
       "rich-text#home__info--desktop"
-    ]
+    ]/*,
+    "props": {
+      "blocksClass": "home__info--desktop"
+    }*/
   }   
 }
