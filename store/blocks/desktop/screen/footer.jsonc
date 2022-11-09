@@ -19,7 +19,7 @@
   },
   "flex-layout.row#desktop__footer--newsletter": {
     "children": [
-
+      "newsletter-form#global__footer"
     ]
   },
   "flex-layout.row#desktop__footer--menu": {
