@@ -24,7 +24,7 @@
   },
   "flex-layout.row#mobile__footer--menu": {
     "children": [
-
+      "menu#mobile__footer--menu"
     ]
   },
   "flex-layout.row#mobile__footer--info": {
