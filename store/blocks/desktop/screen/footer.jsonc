@@ -1,26 +1,35 @@
 {
-  "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-  },
   "footer-layout.desktop": { 
     "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "flex-layout.row#footer": { 
-    "children": [
-      "image"
-    ]
-  },
-  "image": {
-    "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "flex-layout.row#desktop__footer--badges",
+      "flex-layout.row#desktop__footer--newsletter",
+      "flex-layout.row#desktop__footer--menu",
+      "flex-layout.row#desktop__footer--info"      
+    ],
+    "props":{
+      "blockClass":"footer__desktop--main"
     }
+  },
+  "flex-layout.row#desktop__footer--badges": {
+    "children": [
+      "info-card#global__footer--badges-1",
+      "info-card#global__footer--badges-2",
+      "info-card#global__footer--badges-3"      
+    ]
+  },
+  "flex-layout.row#desktop__footer--newsletter": {
+    "children": [
+
+    ]
+  },
+  "flex-layout.row#desktop__footer--menu": {
+    "children": [
+
+    ]
+  },
+  "flex-layout.row#desktop__footer--info": {
+    "children": [
+
+    ]
   }
 }

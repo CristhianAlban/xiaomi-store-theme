@@ -1,0 +1,35 @@
+{
+  "footer-layout.mobile#footer__mobile--main": { 
+    "children": [
+      "flex-layout.row#mobile__footer--badges",
+      "flex-layout.row#mobile__footer--newsletter",
+      "flex-layout.row#mobile__footer--menu",
+      "flex-layout.row#mobile__footer--info"      
+    ],
+    "props":{
+      "blockClass":"footer__mobile--main"
+    }
+  },
+  "flex-layout.row#mobile__footer--badges": {
+    "children": [
+      "info-card#global__footer--badges-1",
+      "info-card#global__footer--badges-2",
+      "info-card#global__footer--badges-3"      
+    ]
+  },
+  "flex-layout.row#mobile__footer--newsletter": {
+    "children": [
+
+    ]
+  },
+  "flex-layout.row#mobile__footer--menu": {
+    "children": [
+
+    ]
+  },
+  "flex-layout.row#mobile__footer--info": {
+    "children": [
+
+    ]
+  }
+}
