@@ -20,6 +20,9 @@
     "children": [
       "login#desktop",
       "minicart.v2"      
-    ]
+    ],
+    "props":{
+      "blockClass": "desktop__header-top--login-minicart"
+    }
   }
 }
