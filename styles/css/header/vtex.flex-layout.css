@@ -1,0 +1,26 @@
+
+.flexRow--header__middle{
+    background-color: white;
+}
+.flexRow--header__top {
+    background-color: #1c1c1c;
+}
+
+.flexRow--header__top {
+    height : 37px;
+    padding: 0 25px;
+
+}
+
+.flexRow--header__top {
+    padding        : 0 !important;
+    max-width      : 1240px;
+    width          : 100%;
+    margin         : 0 auto;
+    justify-content: space-between;
+    display        : flex;
+}
+.flexRow--mobile__header--container--top :global(.vtex-store-components-3-x-container){
+    padding-left: 0;
+    padding-right: 0;
+}

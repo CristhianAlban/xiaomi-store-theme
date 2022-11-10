@@ -11,6 +11,6 @@
     justify-content: center;
 }
 
-.stretchChildrenWidth {
+.flexRowContent--section_one-prom--row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     margin: 0 9px;
 }
