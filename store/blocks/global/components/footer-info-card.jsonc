@@ -1,0 +1,41 @@
+{
+  "info-card#global__footer--badges-1":{
+    "props":{
+      "id": "info-card-badge1",
+      "isFullModeStyle": false,
+      "callToActionMode": "none",
+      "textPosition": "right",
+      "imageUrl": "assets/img/footer__infocard1.png",
+      "textMode": "rich-text",
+      "textAlignment": "left",
+      "headline":"**Cambios y devoluciones**",
+      "subhead":"Cambios o devoluciones sin costo."
+    }
+  },
+  "info-card#global__footer--badges-2":{
+    "props":{
+      "id": "info-card-badge2",
+      "isFullModeStyle": false,
+      "callToActionMode": "none",
+      "textPosition": "right",
+      "imageUrl": "assets/img/footer__infocard2.png",
+      "textMode": "rich-text",
+      "textAlignment": "left",
+      "headline":"**La tienda en Colombia**",
+      "subhead":"Tecnología todo el día, todos los días."
+    }
+  },
+  "info-card#global__footer--badges-3":{
+    "props":{
+      "id": "info-card-badge3",
+      "isFullModeStyle": false,
+      "callToActionMode": "none",
+      "textPosition": "right",
+      "imageUrl": "assets/img/footer__infocard3.png",
+      "textMode": "rich-text",
+      "textAlignment": "left",
+      "headline":"**Compra segura siempre**",
+      "subhead":"Tus datos siempre estarán protegidos."
+    }
+  }
+}
