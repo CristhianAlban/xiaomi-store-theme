@@ -1,7 +1,11 @@
 {
-    "drawer#header__mobile--search":{
-        "children": [
-            "search-bar#header__search"
-        ]
-    }
+  "search-bar#header__search":{
+    "blocks":[
+      "autocomplete-result-list.v2"
+    ],
+    "props":{
+      "openAutocompleteOnFocus":true,
+      "blockClass":"header__search"
+    }    
+  }
 }

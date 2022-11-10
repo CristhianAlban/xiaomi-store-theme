@@ -1,0 +1,20 @@
+{
+  "header-layout.desktop": {
+    "title":"Header Desktop",
+    "children": [
+      "header-row#desktop__header--top"
+    ]      
+  },  
+  "header-row#desktop__header--top": {
+    "title": "Header superior",
+    "children": [
+      "link#header__link--shipping",
+      "search-bar#header__search",
+      "login#desktop",
+      "minicart.v2"
+    ],
+    "props":{
+      "blockClass": "header__top"
+    }
+  }
+}

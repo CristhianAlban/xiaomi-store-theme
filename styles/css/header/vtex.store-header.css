@@ -5,8 +5,16 @@
 .headerRowContentContainer--header__top{
     height: 37px;
     padding: 0 25px;
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
 }
 /* .container{
     display: none;
 } */
+
+/* padding: 0!important;
+    height: 30px; */
 

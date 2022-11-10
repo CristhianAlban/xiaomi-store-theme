@@ -13,26 +13,6 @@
       "header-layout.mobile"
     ]
   },
-  "header-layout.desktop": {
-    "title":"Header Desktop",
-    "children": [
-      "header-row#header__top"
-    ]
-    
-  },  
-  "header-row#header__top": {
-    "title": "Header superior",
-    "children": [
-      "link#header__link--shipping",
-      "search-bar#header__search",
-      "header-spacer",
-      "login#desktop",
-      "minicart.v2"
-    ],
-    "props":{
-      "blockClass": "header__top"
-    }
-  },
   "link#header__link--shipping":{
     "children":[
       "rich-text#header__top--shipping"
@@ -42,12 +22,6 @@
       "blockClass": "link__header"
     }
   },  
-  "rich-text#header__top--shipping":{
-    "props": {
-      "text": "ENVÍO GRATIS A PARTIR DE $400 MIL",
-      "blockClass":"texto-header__top"
-    }
-  },  
   "logo#header__top--logo":{
     "title": "Logo",
     "props":{
@@ -55,14 +29,6 @@
       "width": 50,
       "href":"/"
     }
-  },
-  "search-bar#header__search":{
-    "blocks":[
-      "autocomplete-result-list.v2"
-    ],
-    "props":{
-      "openAutocompleteOnFocus":true
-    }    
   },
   "login#desktop":{
     "props": {

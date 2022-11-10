@@ -2,8 +2,7 @@
   "header-layout.mobile": {
     "title":"Header Mobile",
     "children": [
-      //"header-row#header__top",
-      "header-row#header__middle",
+      "header-row#mobile__header--top",
       "sticky-layout#menu__mobile--bottom"     
     ]
   },
@@ -23,8 +22,8 @@
       "logo#header__top--logo"
     ]
   },
-  "header-row#header__middle":{
-    "title": "Header medio",
+  "header-row#mobile__header--top":{
+    "title": "Header Mobile Top",
     "children":[      
       //"header-force-center#header__top"
       "link#header__link--shipping"
