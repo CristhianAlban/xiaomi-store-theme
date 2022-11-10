@@ -45,8 +45,11 @@
     "children": [
       "drawer#header__mobile--menu",
       "drawer#header__mobile--search",
-      "minicart.v2",      
+      "minicart.v2#mobile",      
       "login#mobile"      
-    ]
+    ],
+    "props":{
+      "preserveLayoutOnMobile": true
+    }
   }
 }

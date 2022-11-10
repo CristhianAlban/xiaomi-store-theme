@@ -19,7 +19,7 @@
   "flex-layout.row#desktop__header-top--login-minicart":{
     "children": [
       "login#desktop",
-      "minicart.v2"      
+      "minicart.v2#desktop"      
     ],
     "props":{
       "blockClass": "desktop__header-top--login-minicart"
