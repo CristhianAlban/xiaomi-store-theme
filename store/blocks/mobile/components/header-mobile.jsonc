@@ -2,38 +2,54 @@
   "header-layout.mobile": {
     "title":"Header Mobile",
     "children": [
-      //"header-row#header__top",
-      "header-row#header__middle",
-      "sticky-layout#menu__mobile--bottom"     
+      "sticky-layout#mobile__header--top",
+      "sticky-layout#mobile__menu--bottom"     
     ]
   },
-  "login#mobile":{
+  "sticky-layout#mobile__header--top":{
     "props": {
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile": true,
-      "logInButtonBehavior": "link"
+      "position": "top",
+      "blockClass": "mobile__header--top"
+    },
+    "children": [ 
+      "flex-layout.row#mobile__header--container--top"       
+    ]
+  },
+  "flex-layout.row#mobile__header--container--top":{
+    "children": [
+      "flex-layout.col#mobile__header--container--top"
+    ],
+    "props": {
+      "blockClass":"mobile__header--container--top"
+    }
+  },  
+  "flex-layout.col#mobile__header--container--top": {
+    "children": [      
+      "flex-layout.row#mobile__header--top",
+      "flex-layout.row#mobile__header--middle"
+    ],
+    "props": {
+      "blockClass":"mobile__header--container--top"
     }
   },
-  "header-force-center#header__middle":{
+  "flex-layout.row#mobile__header--top":{
+    "title": "Header Mobile Top",
     "children":[
-      "logo#header__top--logo"
-    ]
-  },
-  "header-row#header__middle":{
-    "title": "Header medio",
-    "children":[      
-      //"header-force-center#header__top"
       "link#header__link--shipping"
     ],
     "props":{
       "blockClass": "header__top"
     }
   },
-  "sticky-layout#menu__mobile--bottom":{
+  "flex-layout.row#mobile__header--middle":{
+    "children":[
+      "logo#header__top--logo"
+    ],
+    "props":{
+      "blockClass": "header__middle"
+    }
+  },
+  "sticky-layout#mobile__menu--bottom":{
     "props": {
       "position": "bottom",
       "blockClass": "menu__mobile--bottom"
@@ -46,8 +62,22 @@
     "children": [
       "drawer#header__mobile--menu",
       "drawer#header__mobile--search",
-      "minicart.v2",      
+      "minicart.v2#mobile",      
       "login#mobile"      
-    ]
+    ],
+    "props":{
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "login#mobile":{
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "logInButtonBehavior": "link"
+    }
   }
 }

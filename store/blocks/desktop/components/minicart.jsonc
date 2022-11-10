@@ -1,0 +1,18 @@
+{
+  "minicart.v2#desktop": {
+    "props": {
+      "MinicartIcon": "icon-cart",
+      "variation": "drawer",
+      "itemCountMode": "total",
+      "quantityDisplay": "always"
+    },
+    "children": [
+      "minicart-base-content"
+    ]
+  },
+  "rich-text#minicart":{
+    "props":{
+      "text": "carrito"
+    }
+  }
+}

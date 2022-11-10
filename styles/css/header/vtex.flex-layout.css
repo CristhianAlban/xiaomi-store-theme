@@ -1,15 +1,18 @@
-.headerRowBackground--header__middle,
-.headerRowBackground--header__top {
+
+.flexRow--header__middle{
+    background-color: white;
+}
+.flexRow--header__top {
     background-color: #1c1c1c;
 }
 
-.headerRowContentContainer--header__top {
+.flexRow--header__top {
     height : 37px;
     padding: 0 25px;
 
 }
 
-.headerRowContainer--header__top {
+.flexRow--header__top {
     padding        : 0 !important;
     max-width      : 1240px;
     width          : 100%;
@@ -17,9 +20,7 @@
     justify-content: space-between;
     display        : flex;
 }
-
-/* .container{
-    display: none;
-} */
-
-/**/
+.flexRow--mobile__header--container--top :global(.vtex-store-components-3-x-container){
+    padding-left: 0;
+    padding-right: 0;
+}
