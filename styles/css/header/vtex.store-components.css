@@ -1,0 +1,9 @@
+.vtex-store-components-3-x-searchBarContainer {
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchBarInnerContainer--header__search{
+    border: 1px solid red;
+}

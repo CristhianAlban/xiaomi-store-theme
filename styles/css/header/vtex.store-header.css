@@ -5,6 +5,10 @@
 .headerRowContentContainer--header__top{
     height: 37px;
     padding: 0 25px;
+   
+}
+.headerRowContainer--header__top{
+    padding: 0!important;
     max-width: 1240px;
     width: 100%;
     margin: 0 auto;
@@ -15,6 +19,5 @@
     display: none;
 } */
 
-/* padding: 0!important;
-    height: 30px; */
+/**/
 

@@ -5,6 +5,7 @@
     ],
     "props":{
       "openAutocompleteOnFocus":true,
+      "maxWidth": 260,
       "blockClass":"header__search"
     }    
   }
