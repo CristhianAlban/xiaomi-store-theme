@@ -1,6 +1,6 @@
 {
-  "info-card#global__footer--badges-1":{
-    "props":{
+  "info-card#global__footer--badges-1": {
+    "props": {
       "id": "info-card-badge1",
       "isFullModeStyle": false,
       "callToActionMode": "none",
@@ -8,13 +8,13 @@
       "imageUrl": "assets/img/footer__infocard1.png",
       "textMode": "html",
       "textAlignment": "left",
-      "headline":"Cambios y devoluciones",
-      "subhead":"Cambios o devoluciones sin costo.",
-      "blockClass":"global__footer--badges"
+      "headline": "Cambios y devoluciones",
+      "subhead": "Cambios o devoluciones sin costo.",
+      "blockClass": "global__footer--badges"
     }
   },
-  "info-card#global__footer--badges-2":{
-    "props":{
+  "info-card#global__footer--badges-2": {
+    "props": {
       "id": "info-card-badge2",
       "isFullModeStyle": false,
       "callToActionMode": "none",
@@ -22,13 +22,13 @@
       "imageUrl": "assets/img/footer__infocard2.png",
       "textMode": "html",
       "textAlignment": "left",
-      "headline":"La tienda en Colombia",
-      "subhead":"Tecnología todo el día, todos los días.",
-      "blockClass":"global__footer--badges"
+      "headline": "La tienda en Colombia",
+      "subhead": "Tecnología todo el día, todos los días.",
+      "blockClass": "global__footer--badges"
     }
   },
-  "info-card#global__footer--badges-3":{
-    "props":{
+  "info-card#global__footer--badges-3": {
+    "props": {
       "id": "info-card-badge3",
       "isFullModeStyle": false,
       "callToActionMode": "none",
@@ -36,9 +36,9 @@
       "imageUrl": "assets/img/footer__infocard3.png",
       "textMode": "html",
       "textAlignment": "left",
-      "headline":"Compra segura siempre",
-      "subhead":"Tus datos siempre estarán protegidos.",
-      "blockClass":"global__footer--badges"
+      "headline": "Compra segura siempre",
+      "subhead": "Tus datos siempre estarán protegidos.",
+      "blockClass": "global__footer--badges"
     }
   }
 }
