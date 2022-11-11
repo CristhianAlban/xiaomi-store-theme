@@ -1,0 +1,32 @@
+
+.flexRow--header__middle{
+    background-color: white;
+}
+.flexRowContent--header__middle {
+    background-color: #f5f5f5;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
+.flexRowContent--header__middle :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
+}
+.flexRow--header__top {
+    background-color: #1c1c1c;
+}
+
+.flexRow--header__top {
+    padding: 0 25px;
+}
+
+.flexRow--mobile__header--container--top :global(.vtex-store-components-3-x-container){
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+/* .flexRowContent--header__middle{
+    transition: background .3s ease;
+    will-change: padding,background;
+} */
