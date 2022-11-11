@@ -1,0 +1,19 @@
+.flexRowContent--desktop__footer--badges {
+    max-width      : 1240px;
+    margin         : 0 auto;
+    padding        : 0;
+    justify-content: space-between;
+}
+
+.flexRow--desktop__footer--newsletter {
+    background-color: #f5f5f5;
+    max-width       : 1450px;
+    width           : 100%;
+    margin          : 0 auto;
+}
+
+.flexRowContent--desktop__footer--newsletter {
+    max-width: 1240px;
+    margin   : 0 auto;
+    padding  : 0;
+}

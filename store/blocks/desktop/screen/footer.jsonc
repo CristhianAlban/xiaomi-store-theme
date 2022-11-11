@@ -1,35 +1,43 @@
 {
-  "footer-layout.desktop": { 
+  "footer-layout.desktop": {
     "children": [
       "flex-layout.row#desktop__footer--badges",
       "flex-layout.row#desktop__footer--newsletter",
       "flex-layout.row#desktop__footer--menu",
-      "flex-layout.row#desktop__footer--info"      
+      "flex-layout.row#desktop__footer--info"
     ],
-    "props":{
-      "blockClass":"footer__desktop--main"
+    "props": {
+      "blockClass": "footer__desktop--main"
     }
   },
   "flex-layout.row#desktop__footer--badges": {
     "children": [
       "info-card#global__footer--badges-1",
       "info-card#global__footer--badges-2",
-      "info-card#global__footer--badges-3"      
-    ]
+      "info-card#global__footer--badges-3"
+    ],
+    "props": {
+      "blockClass": "desktop__footer--badges"
+    }
   },
   "flex-layout.row#desktop__footer--newsletter": {
     "children": [
       "newsletter-form#global__footer"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop__footer--newsletter"
+    }
   },
   "flex-layout.row#desktop__footer--menu": {
-    "children": [
-
-    ]
+    "children": [],
+    "props": {
+      "blockClass": "desktop__footer--menu"
+    }
   },
   "flex-layout.row#desktop__footer--info": {
-    "children": [
-
-    ]
+    "children": [],
+    "props": {
+      "blockClass": "desktop__footer--info"
+    }
   }
 }
