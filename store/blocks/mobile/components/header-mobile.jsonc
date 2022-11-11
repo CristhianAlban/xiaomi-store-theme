@@ -46,7 +46,10 @@
       "logo#header__top--logo"
     ],
     "props":{
-      "blockClass": "header__middle"
+      "blockClass": "header__middle",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": false,
+      "preventHorizontalStretch": false
     }
   },
   "sticky-layout#mobile__menu--bottom":{
