@@ -15,7 +15,10 @@
       "info-card#global__footer--badges-1",
       "info-card#global__footer--badges-2",
       "info-card#global__footer--badges-3"      
-    ]
+    ],
+    "props": {
+      "blockClass":"desktop__footer--badges"
+    }
   },
   "flex-layout.row#desktop__footer--newsletter": {
     "children": [
