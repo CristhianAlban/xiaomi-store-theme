@@ -1,0 +1,12 @@
+{
+  "minicart.v2#mobile": {
+    "props": {
+      "variation": "drawer",
+      "itemCountMode": "total",
+      "quantityDisplay": "always"
+    },
+    "children": [
+      "minicart-base-content"
+    ]
+  }
+}

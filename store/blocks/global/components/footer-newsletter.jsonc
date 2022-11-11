@@ -1,0 +1,30 @@
+{
+  "newsletter-form#global__footer": {
+    "children": [
+      "flex-layout.row#global__newslatter--footer"
+    ]
+  },
+  "flex-layout.row#global__newslatter--footer": {
+    "children" : [      
+      "newsletter-input-email",
+      "newsletter-submit"
+    ]
+  },
+  "newsletter-input-email":{
+    "props":{
+      "inputLabel": "Recibe 10% de descuento en tu primera compra Entérate antes que nadie de las mejores promociones",
+      "placeholderText": "Deja tu mail aquí"
+    }
+  },
+  "newsletter-submit":{
+    "props": {
+      "submitButtonLabel":""
+    }
+  },
+  "icon#global__newsletter--submit":{
+    "props":{
+      "id":"nav-arrow--right"
+    }
+  }
+  
+}

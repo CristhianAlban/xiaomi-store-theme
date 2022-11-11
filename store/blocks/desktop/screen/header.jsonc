@@ -1,0 +1,28 @@
+{
+  "header-layout.desktop": {
+    "title":"Header Desktop",
+    "children": [
+      "header-row#desktop__header--top"
+    ]      
+  },  
+  "header-row#desktop__header--top": {
+    "title": "Header superior",
+    "children": [
+      "link#header__link--shipping",
+      "search-bar#header__search",
+      "flex-layout.row#desktop__header-top--login-minicart"
+    ],
+    "props":{
+      "blockClass": "header__top"
+    }
+  },
+  "flex-layout.row#desktop__header-top--login-minicart":{
+    "children": [
+      "login#desktop",
+      "minicart.v2#desktop"      
+    ],
+    "props":{
+      "blockClass": "desktop__header-top--login-minicart"
+    }
+  }
+}

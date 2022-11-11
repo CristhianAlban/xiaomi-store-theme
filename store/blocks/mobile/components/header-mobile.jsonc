@@ -1,0 +1,86 @@
+{
+  "header-layout.mobile": {
+    "title":"Header Mobile",
+    "children": [
+      "sticky-layout#mobile__header--top",
+      "sticky-layout#mobile__menu--bottom"     
+    ]
+  },
+  "sticky-layout#mobile__header--top":{
+    "props": {
+      "position": "top",
+      "blockClass": "mobile__header--top"
+    },
+    "children": [ 
+      "flex-layout.row#mobile__header--container--top"       
+    ]
+  },
+  "flex-layout.row#mobile__header--container--top":{
+    "children": [
+      "flex-layout.col#mobile__header--container--top"
+    ],
+    "props": {
+      "blockClass":"mobile__header--container--top"
+    }
+  },  
+  "flex-layout.col#mobile__header--container--top": {
+    "children": [      
+      "flex-layout.row#mobile__header--top",
+      "flex-layout.row#mobile__header--middle"
+    ],
+    "props": {
+      "blockClass":"mobile__header--container--top"
+    }
+  },
+  "flex-layout.row#mobile__header--top":{
+    "title": "Header Mobile Top",
+    "children":[
+      "link#header__link--shipping"
+    ],
+    "props":{
+      "blockClass": "header__top"
+    }
+  },
+  "flex-layout.row#mobile__header--middle":{
+    "children":[
+      "logo#header__top--logo"
+    ],
+    "props":{
+      "blockClass": "header__middle",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": false,
+      "preventHorizontalStretch": false
+    }
+  },
+  "sticky-layout#mobile__menu--bottom":{
+    "props": {
+      "position": "bottom",
+      "blockClass": "menu__mobile--bottom"
+    },
+    "children": [
+      "flex-layout.row#header__mobile--bottom"      
+    ]
+  } ,
+  "flex-layout.row#header__mobile--bottom":{
+    "children": [
+      "drawer#header__mobile--menu",
+      "drawer#header__mobile--search",
+      "minicart.v2#mobile",      
+      "login#mobile"      
+    ],
+    "props":{
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "login#mobile":{
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "logInButtonBehavior": "link"
+    }
+  }
+}

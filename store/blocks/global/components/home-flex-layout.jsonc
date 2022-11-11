@@ -5,15 +5,6 @@
             "flex-layout.col#section__one--prom"
         ]
     },
-    "flex-layout.row#home__info--responsive": {
-        "title": "Section one",
-        "children": [
-            "responsive-layout.phone#home__info--phone",
-            "responsive-layout.mobile#home__info--mobile",
-            "responsive-layout.tablet#home__info--tablet",
-            "responsive-layout.desktop#home__info--desktop"            
-        ]
-    },
     "flex-layout.col#section__one--prom":{
         "title": "container prom",
         "children":[

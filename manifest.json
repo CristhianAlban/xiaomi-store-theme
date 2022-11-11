@@ -1,7 +1,7 @@
 {
   "vendor": "itgloberspartnercl",
   "name": "xiaomi-store-theme",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
@@ -50,7 +50,10 @@
     "vtex.store-image": "0.x",
     "vtex.modal-layout": "0.x",
     "vtex.search": "2.x",
-    "vtex.store-link": "0.x"
+    "vtex.store-link": "0.x",
+    "vtex.product-list": "0.x",
+    "vtex.disclosure-layout": "1.x",
+    "vtex.store-newsletter": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
