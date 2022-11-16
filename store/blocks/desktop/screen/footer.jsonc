@@ -3,12 +3,22 @@
     "children": [
       "flex-layout.row#desktop__footer--badges",
       "flex-layout.row#desktop__footer--newsletter",
-      "flex-layout.row#desktop__footer--menu",
-      "flex-layout.row#desktop__footer--info"
+      "flex-layout.row#desktop__footermenu-info"
     ],
     "props": {
       "blockClass": "footer__desktop--main"
     }
+  },
+  "flex-layout.row#desktop__footermenu-info": {
+    "children": [
+      "flex-layout.col#desktop__footermenu-info"
+    ]
+  },
+  "flex-layout.col#desktop__footermenu-info": {
+    "children": [
+      "flex-layout.row#desktop__footer--menu",
+      "flex-layout.row#desktop__footer--info"
+    ]
   },
   "flex-layout.row#desktop__footer--badges": {
     "children": [
@@ -29,7 +39,9 @@
     }
   },
   "flex-layout.row#desktop__footer--menu": {
-    "children": [],
+    "children": [
+    
+    ],
     "props": {
       "blockClass": "desktop__footer--menu"
     }
