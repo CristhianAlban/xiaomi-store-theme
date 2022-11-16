@@ -1,0 +1,49 @@
+{
+  "flex-layout.row#desktop__footer--menu-info": {
+    "children": [
+      "flex-layout.col#desktop__footer--menu-support",
+      "flex-layout.col#desktop__footer--menu-about-us",
+      "flex-layout.col#desktop__footer--menu-social-networks",
+      "flex-layout.col#desktop__footer--menu-grow",
+      "flex-layout.col#desktop__footer--menu-info"
+    ]
+  },
+  "flex-layout.col#desktop__footer--menu-support": {
+    "children": [
+        "rich-text#menu__title--support",
+        "menu#global__footer--support"
+    ]
+  },
+  "flex-layout.col#desktop__footer--menu-about-us": {
+    "children": [
+        "rich-text#menu__title--about-us",
+        "menu#global__footer--about-us"
+    ]
+  },
+  "flex-layout.col#desktop__footer--menu-social-networks": {
+    "children": [
+        "rich-text#menu__title--social-networks",
+        "menu#global__footer--social-networks"
+    ]
+  },
+  "rich-text#menu__title--support": {
+    "props": {
+        "text": "SOPORTE"
+    }
+  },
+  "rich-text#menu__title--about-us": {
+    "props": {
+        "text": "SOBRE NOSOTROS"
+    }
+  },
+  "rich-text#menu__title--social-networks": {
+    "props": {
+        "text": "SÍGUENOS"
+    }
+  },
+  "flex-layout.col#desktop__footer--menu-grow": {
+    "children": [
+
+    ]
+  }
+}
