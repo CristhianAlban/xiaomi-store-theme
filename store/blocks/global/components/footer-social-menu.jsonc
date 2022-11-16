@@ -3,75 +3,55 @@
     "children": [
       "flex-layout.row#global__footer-social-item-facebook",
       "flex-layout.row#global__footer-social-item-instagram"
-    ]
+    ],
+    "props": {
+      "blockClass": "global__footer-social-items"
+    }
   },
   "flex-layout.row#global__footer-social-item-facebook": {
     "children": [
       "flex-layout.col#global__footer-social-image-facebook",
-      "link#footer__link--facebook"
-    ]
+      "rich-text#footer__link--facebook"
+    ],
+    "props": {
+      "blockClass": "global__footer-social-item"
+    }
   },
   "flex-layout.col#global__footer-social-image-facebook": {
     "children": [
       "image#footer__image--facebook"
-    ]
-  },
-  "image#footer__image--facebook": {
-    "title": "logo facebook",
-    "props": {
-      "src": "assets/img/footer__social-facebook.png",
-      "blockClass": "social--logo",
-      "link": {
-        "url": "https://www.facebook.com/XiaomiStoreColombia/",
-        "newTab": true,
-        "attributeNofollow": true
-      }
-    }
-  },
-  "link#footer__link--facebook": {
-    "children": [
-      "rich-text#footer__link--social"
     ],
     "props": {
-      "href": "https://www.facebook.com/XiaomiStoreColombia/",
-      "blockClass": "link__header"
+      "blockClass": "footer-social-image"
     }
   },
   "flex-layout.row#global__footer-social-item-instagram": {
     "children": [
       "flex-layout.col#global__footer-social-image-instagram",
-      "link#footer__link--instagram"
-    ]
+      "rich-text#footer__link--instagram"
+    ],
+    "props": {
+      "blockClass": "global__footer-social-item"
+    }
   },
   "flex-layout.col#global__footer-social-image-instagram": {
     "children": [
       "image#footer__image--instagram"
-    ]
-  },
-  "image#footer__image--instagram": {
-    "title": "logo instagram",
-    "props": {
-      "src": "assets/img/footer__social-instagram.png",
-      "blockClass": "social--logo",
-      "link": {
-        "url": "https://www.instagram.com/xiaomistore_co/",
-        "newTab": true,
-        "attributeNofollow": true
-      }
-    }
-  },
-  "link#footer__link--instagram": {
-    "children": [
-      "rich-text#footer__link--social"
     ],
     "props": {
-      "href": "https://www.instagram.com/xiaomistore_co/",
-      "blockClass": "link__header"
+      "blockClass": "footer-social-image"
     }
   },
-  "rich-text#footer__link--social": {
+  "rich-text#footer__link--instagram": {
     "props": {
-      "text": "Xiaomi Colombia"
+      "text": "[Xiaomi Colombia](https://www.instagram.com/xiaomistore_co/)",
+      "blockClass": "link__social"
+    }
+  },
+  "rich-text#footer__link--facebook": {
+    "props": {
+      "text": "[Xiaomi Colombia](https://www.facebook.com/XiaomiStoreColombia/)",
+      "blockClass": "link__social"
     }
   }
 }

@@ -1,12 +1,12 @@
 {
-    
   "menu#global__footer--support": {
     "children": [
       "menu-item#global__footer--warranty",
       "menu-item#global__footer--shipments",
       "menu-item#global__footer--billing",
       "menu-item#global__footer--return-policy",
-      "menu-item#global__footer--promotions"
+      "menu-item#global__footer--promotions",
+      "menu-item#global__footer--industry-and-commerce-superintendency"
     ],
     "props": {
       "orientation": "vertical"
@@ -21,7 +21,8 @@
         "href": "https://www.google.com/",
         "tagTitle": "warranty title",
         "text": "Garantías"
-      }
+      },
+      "blockClass": "menu__item"
     }
   },
   "menu-item#global__footer--shipments": {
@@ -33,7 +34,8 @@
         "href": "https://www.google.com/",
         "tagTitle": "shipments title",
         "text": "F.A.Q. Envíos"
-      }
+      },
+      "blockClass": "menu__item"
     }
   },
   "menu-item#global__footer--billing": {
@@ -45,7 +47,8 @@
         "href": "https://www.google.com/",
         "tagTitle": "billing title",
         "text": "Facturación"
-      }
+      },
+      "blockClass": "menu__item"
     }
   },
   "menu-item#global__footer--return-policy": {
@@ -57,7 +60,8 @@
         "href": "https://www.google.com/",
         "tagTitle": "return-policy title",
         "text": "Politicas de Devolución"
-      }
+      },
+      "blockClass": "menu__item"
     }
   },
   "menu-item#global__footer--promotions": {
@@ -69,16 +73,16 @@
         "href": "https://www.google.com/",
         "tagTitle": "promotions title",
         "text": "Promociones"
-      }
+      },
+      "blockClass": "menu__item"
     }
   },
-  
+
   "menu#global__footer--about-us": {
     "children": [
       "menu-item#global__footer--tekmovil",
       "menu-item#global__footer--notice-of-privacy",
-      "menu-item#global__footer--terms-and-conditions",
-      "menu-item#global__footer--industry-and-commerce-superintendency"
+      "menu-item#global__footer--terms-and-conditions"
     ],
     "props": {
       "orientation": "vertical"
@@ -93,7 +97,8 @@
         "href": "https://www.google.com/",
         "tagTitle": "tekmovil title",
         "text": "Tekmovil"
-      }
+      },
+      "blockClass": "menu__item"
     }
   },
   "menu-item#global__footer--notice-of-privacy": {
@@ -105,7 +110,8 @@
         "href": "https://www.google.com/",
         "tagTitle": "notice of privacy title",
         "text": "Aviso de privacidad"
-      }
+      },
+      "blockClass": "menu__item"
     }
   },
   "menu-item#global__footer--terms-and-conditions": {
@@ -117,7 +123,8 @@
         "href": "https://www.google.com/",
         "tagTitle": "terms and conditions title",
         "text": "Terminos y condiciones"
-      }
+      },
+      "blockClass": "menu__item"
     }
   },
   "menu-item#global__footer--industry-and-commerce-superintendency": {
@@ -128,10 +135,11 @@
         "type": "external",
         "href": "https://www.google.com/",
         "tagTitle": "industry and commerce superintendency title",
-        "text": "superintendencia de industria y comercio"
-      }
+        "text": "Superintendencia de industria y comercio"
+      },
+      "blockClass": "menu__item"
     }
-  },  
+  },
   "menu#global__footer--social-networks": {
     "children": [
       "flex-layout.col#global__footer-social-items"
