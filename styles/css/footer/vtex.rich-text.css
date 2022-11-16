@@ -1,0 +1,40 @@
+.container--footer-menu-title {
+    color: #a8a8a8;
+}
+
+.link--footer-menu-button,
+.paragraph--footer-menu-title {
+    font-weight   : 700;
+    font-stretch  : normal;
+    font-style    : normal;
+    letter-spacing: normal;
+    text-align    : left;
+    color         : #a8a8a8;
+}
+
+.paragraph--footer-menu-title {
+    font-size  : 13px;
+    line-height: 1.35;
+}
+
+.paragraph--footer-menu-item,
+.paragraph--link__social {
+    margin        : 0;
+    padding       : 4px 0;
+    font-size     : 13px;
+    font-weight   : 300;
+    font-stretch  : normal;
+    font-style    : normal;
+    line-height   : 1.35;
+    letter-spacing: normal;
+    text-align    : left;
+    color         : #a8a8a8;
+}
+
+.link--link__social {
+    margin         : 0;
+    padding        : 0;
+    height         : 30px;
+    color          : #a8a8a8;
+    text-decoration: none;
+}

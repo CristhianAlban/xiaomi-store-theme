@@ -1,0 +1,66 @@
+{
+  "menu#mobile__footer--menu": {
+    "children": [
+      "menu-item#mobile__footer--support",
+      "menu-item#mobile__footer--about-us",
+      "menu-item#mobile__footer--social-networks"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile__footer--support": {
+    "props": {
+      "id": "support",
+      "type": "custom",
+      "itemProps": {
+        "tagTitle": "Support title",
+        "text": "Soporte"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#support"
+    ]
+  },
+  "submenu.accordion#support": {
+    "children": [
+      "menu#global__footer--support"
+    ]
+  },
+  "menu-item#mobile__footer--about-us": {
+    "props": {
+      "id": "About us",
+      "type": "custom",
+      "itemProps": {
+        "tagTitle": "About us title",
+        "text": "Sobre Nosotros"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#about-us"
+    ]
+  },
+  "submenu.accordion#about-us": {
+    "children": [
+      "menu#global__footer--about-us"
+    ]
+  },
+  "menu-item#mobile__footer--social-networks": {
+    "props": {
+      "id": "Social Networks",
+      "type": "custom",
+      "itemProps": {
+        "tagTitle": "Social Networks title",
+        "text": "Síguenos"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#social-networks"
+    ]
+  },
+  "submenu.accordion#social-networks": {
+    "children": [
+      "menu#global__footer--social-networks"
+    ]
+  }
+}
