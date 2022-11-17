@@ -50,5 +50,16 @@
 
 .flexRowContent--global__footer-social-item :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     width: auto !important;
-
 }
+
+.flexRowContent--footer-payments-top {
+    justify-content: center;
+    align-items: center;
+}
+.flexCol--footer-payments-top {
+    padding-right: 4px;
+}
+.flexRow--footer-payments-bottom {
+    padding-top: 6px;
+}
+
