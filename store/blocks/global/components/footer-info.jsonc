@@ -3,7 +3,11 @@
     "children": [
       "flex-layout.row#global__footer--contact",
       "flex-layout.row#global__footer--pay-method"
-    ]
+    ],
+    "props":{
+      "preventVerticalStretch": true,
+      "verticalAlign":"middle"
+    }
   },
   "flex-layout.row#global__footer--contact": {
     "children": [
@@ -20,13 +24,22 @@
   "flex-layout.row#global__footer--pay-method": {
     "children": [
       "flex-layout.col#global__footer--pay-method"
-    ]
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "blockClass":"footer-payments-top",
+      "paddingTop": 4
+    }
+    
   },
   "flex-layout.col#global__footer--pay-method": {
     "children": [
       "flex-layout.row#global__footer--pay-method-top",
       "flex-layout.row#global__footer--pay-method-bottom"
-    ]
+    ],
+    "props":{
+      "blockClass":"footer-payments-top"
+    }     
   },
   "flex-layout.row#global__footer--pay-method-top": {
     "children": [
@@ -34,19 +47,37 @@
       "image#footer__image--payments2",
       "image#footer__image--payments3",
       "image#footer__image--payments4"
-    ]
+    ],
+    "props":{
+      "blockClass":"footer-payments-top",
+      "preventHorizontalStretch": true,
+      "colGap": 3
+    }   
   },
   "flex-layout.row#global__footer--pay-method-bottom": {
-    "children": []
+    "children": [
+      "image#footer__image--payments-null",
+      "image#footer__image--payments5",
+      "image#footer__image--payments6"
+    ]
+    ,
+    "props":{
+      "blockClass":"footer-payments-bottom",
+      "colGap": 3
+    }  
+    
   },
   "rich-text#footer__contact--phone": {
     "props": {
-      "text": "57 1381 2897"
+      "text": "57 1381 2897",
+      "blockClass":"footer-menu-item-tel"
     }
   },
   "rich-text#footer__contact--schedule": {
     "props": {
-      "text": "Lun.-Vie. 8:00-18:00, Sab. 8:00-16:00"
+      "text": "Lun.-Vie. 8:00-18:00, Sab. 8:00-16:00",
+      "blockClass":"footer-menu-item"
+      
     }
   },
   "rich-text#footer__contact--mail-to": {

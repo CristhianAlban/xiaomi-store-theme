@@ -25,7 +25,8 @@
       "flex-layout.col#global__footer--menu-info"
     ],
     "props": {
-      "blockClass": "desktop__footer--menu-info-content"
+      "blockClass": "desktop__footer--menu-info-content",
+      "preventHorizontalStretch": true
     }
   },
   "flex-layout.col#desktop__footer--menu-support": {
@@ -34,7 +35,8 @@
       "menu#global__footer--support"
     ],
     "props": {
-      "blockClass": "desktop__footer--menu-container"
+      "blockClass": "desktop__footer--menu-container",
+      "preventVerticalStretch": true
     }
   },
   "flex-layout.col#desktop__footer--menu-about-us": {
@@ -43,7 +45,8 @@
       "menu#global__footer--about-us"
     ],
     "props": {
-      "blockClass": "desktop__footer--menu-container"
+      "blockClass": "desktop__footer--menu-container",
+      "preventVerticalStretch": true
     }
   },
   "flex-layout.col#desktop__footer--menu-social-networks": {
@@ -52,10 +55,14 @@
       "menu#global__footer--social-networks"
     ],
     "props": {
-      "blockClass": "desktop__footer--menu-container"
+      "blockClass": "desktop__footer--menu-container",
+      "preventVerticalStretch": true
     }
   },
   "flex-layout.col#desktop__footer--menu-grow": {
-    "children": []
+    "children": [],
+    "props": {
+      "width": "grow"
+    }
   }
 }
