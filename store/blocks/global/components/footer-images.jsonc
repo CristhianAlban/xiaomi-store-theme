@@ -101,7 +101,7 @@
       }
     }
   },
-  "image#footer__image--payments-null":{
+  "image#footer__image--payments-null": {
     "title": "payments null",
     "props": {
       "src": "",

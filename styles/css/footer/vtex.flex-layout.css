@@ -54,12 +54,13 @@
 
 .flexRowContent--footer-payments-top {
     justify-content: center;
-    align-items: center;
+    align-items    : center;
 }
+
 .flexCol--footer-payments-top {
     padding-right: 4px;
 }
+
 .flexRow--footer-payments-bottom {
     padding-top: 6px;
 }
-

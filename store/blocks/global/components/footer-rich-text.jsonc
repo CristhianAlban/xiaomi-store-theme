@@ -1,7 +1,8 @@
 {
   "rich-text#global__footer--rights": {
     "props": {
-      "text": "Copyright © 2022 Xiaomi. All Rights Reserved"
+      "text": "Copyright © 2022 Xiaomi. All Rights Reserved",
+      "blockClass": "global__footer--rights"
     }
   },
   "rich-text#menu__title--support": {
