@@ -48,8 +48,7 @@
     "props": {
       "blockClass": "header__middle",
       "preserveLayoutOnMobile": true,
-      "fullWidth": false,
-      "preventHorizontalStretch": false
+      "preventHorizontalStretch": true
     }
   },
   "sticky-layout#mobile__menu--bottom": {

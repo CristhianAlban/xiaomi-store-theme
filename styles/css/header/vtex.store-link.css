@@ -1,3 +1,5 @@
 .link--link__header {
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
