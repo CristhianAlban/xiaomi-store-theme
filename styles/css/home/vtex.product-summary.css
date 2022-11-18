@@ -1,0 +1,42 @@
+.container--global__home,
+.containerNormal--HomeDatatricks,
+.containerNormal--search-new {
+    transition: all .5s ease-in;
+}
+
+.container--global__home,
+.container--HomeDatatricks,
+.container--search-new {
+    background-color: #fff;
+    max-width       : 100% !important;
+    border-radius   : 0;
+}
+
+.nameContainer--global__home {
+    padding   : 15px;
+    text-align: center;
+    height    : 66px;
+    overflow  : hidden;
+}
+
+.nameWrapper--global__home {
+    line-height   : 1rem !Important;
+    text-align    : center;
+    min-height    : 46px;
+    font-size     : 13px;
+    font-weight   : 700;
+    font-stretch  : normal;
+    font-style    : normal;
+    letter-spacing: normal;
+    color         : #1c1c1c;
+}
+
+.brandName--global__home {
+    font-size     : 13px;
+    font-weight   : 700;
+    font-stretch  : normal;
+    font-style    : normal;
+    letter-spacing: normal;
+    text-align    : center;
+    color         : #1c1c1c;
+}

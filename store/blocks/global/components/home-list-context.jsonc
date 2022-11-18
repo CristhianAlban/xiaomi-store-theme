@@ -42,5 +42,30 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "home__slider"
     }
+  },
+  "list-context.product-list#demo1": {
+    "blocks": [
+      "product-summary.shelf#global__home"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "collection": "143"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 4,
+        "mobile": 4
+      },
+      "infinite": false,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "desktopOnly",
+      "fullWidth": false,
+      "blockClass": "home__slider--product"
+    }
   }
 }

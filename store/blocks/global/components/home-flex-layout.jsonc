@@ -3,14 +3,20 @@
     "title": "Section one",
     "children": [
       "flex-layout.col#section__one--prom"
-    ]
+    ],
+    "props": {
+      "blockClass": "section_one-prom"
+    }
   },
   "flex-layout.col#section__one--prom": {
     "title": "container prom",
     "children": [
       "flex-layout.row#section_one-prom--row",
       "flex-layout.row#section_one-prom--bannerFw"
-    ]
+    ],
+    "props": {
+      "blockClass": "section_one-prom--row"
+    }
   },
   "flex-layout.row#section_one-prom--row": {
     "title": "container prom row",
@@ -31,5 +37,19 @@
     "props": {
       "blockClass": "section_one-prom--row"
     }
+  },
+  "flex-layout.row#home__section--two": {
+    "title": "Section two",
+    "children": [
+      "flex-layout.col#section__two--product-slider"
+    ],
+    "props": {
+      "blockClass": "home__section--two"
+    }
+  },
+  "flex-layout.col#section__two--product-slider": {
+    "children": [
+      "list-context.product-list#demo1"
+    ]
   }
 }
