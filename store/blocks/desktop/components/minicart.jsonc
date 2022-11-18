@@ -10,8 +10,8 @@
       "minicart-base-content"
     ]
   },
-  "rich-text#minicart":{
-    "props":{
+  "rich-text#minicart": {
+    "props": {
       "text": "carrito"
     }
   }

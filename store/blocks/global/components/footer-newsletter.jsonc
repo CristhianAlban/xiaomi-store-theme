@@ -1,30 +1,30 @@
 {
   "newsletter-form#global__footer": {
     "children": [
-      "flex-layout.row#global__newslatter--footer"
-    ]
-  },
-  "flex-layout.row#global__newslatter--footer": {
-    "children" : [      
       "newsletter-input-email",
-      "newsletter-submit"
-    ]
+      "newsletter-submit",
+      "icon#global__newsletter--submit"
+    ],
+    "props": {
+      "blockClass": "global__newslatter--footer"
+    }
   },
-  "newsletter-input-email":{
-    "props":{
+  "newsletter-input-email": {
+    "props": {
+      "blockClass": "global__newslatter--footer",
       "inputLabel": "Recibe 10% de descuento en tu primera compra Entérate antes que nadie de las mejores promociones",
       "placeholderText": "Deja tu mail aquí"
     }
   },
-  "newsletter-submit":{
+  "newsletter-submit": {
     "props": {
-      "submitButtonLabel":""
+      "blockClass": "global__newslatter--footer",
+      "submitButtonLabel": ">"
     }
   },
-  "icon#global__newsletter--submit":{
-    "props":{
-      "id":"nav-arrow--right"
+  "icon#global__newsletter--submit": {
+    "props": {
+      "id": "arrow-submit-form"
     }
   }
-  
 }

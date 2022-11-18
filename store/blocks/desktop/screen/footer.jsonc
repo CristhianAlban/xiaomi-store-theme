@@ -24,7 +24,8 @@
       "newsletter-form#global__footer"
     ],
     "props": {
-      "blockClass": "desktop__footer--newsletter"
+      "blockClass": "desktop__footer--newsletter",
+      "preventHorizontalStretch": true
     }
   }
 }

@@ -1,11 +1,11 @@
-{ 
-  "responsive-layout.desktop#home__info--desktop":{
-    "title":"Responsive layout info desktop",
-    "children":[
+{
+  "responsive-layout.desktop#home__info--desktop": {
+    "title": "Responsive layout info desktop",
+    "children": [
       "rich-text#home__info--desktop"
-    ]/*,
+    ] /*,
     "props": {
       "blocksClass": "home__info--desktop"
     }*/
-  }   
+  }
 }
