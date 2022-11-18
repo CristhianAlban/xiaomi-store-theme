@@ -2,10 +2,26 @@
   "header-layout.desktop": {
     "title": "Header Desktop",
     "children": [
-      "header-row#desktop__header--top"
+      "flex-layout.row#container__header" 
     ]
   },
-  "header-row#desktop__header--top": {
+  "flex-layout.row#container__header":{
+    "children": ["flex-layout.col#container__header"],
+    "props": {
+      "fullWidth":true,
+      "blockClass": "container__header"
+    }
+  },
+  "flex-layout.col#container__header":{
+    "children": [
+      "flex-layout.row#desktop__header--top",
+      "flex-layout.row#desktop__header--top-menu"
+    ],
+    "props": {
+      "blockClass": "container__header"
+    }
+  },  
+  "flex-layout.row#desktop__header--top":{
     "title": "Header superior",
     "children": [
       "link#header__link--shipping",
@@ -13,7 +29,8 @@
       "flex-layout.row#desktop__header-top--login-minicart"
     ],
     "props": {
-      "blockClass": "header__top"
+      "blockClass": "header__top",
+      "preventHorizontalStretch": true
     }
   },
   "flex-layout.row#desktop__header-top--login-minicart": {

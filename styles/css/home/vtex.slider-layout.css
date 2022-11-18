@@ -1,5 +1,6 @@
 .imageElement--home__slider {
     max-height: none !important;
+    z-index: -4;
 }
 
 .slideChildrenContainer--home__slider--product {
