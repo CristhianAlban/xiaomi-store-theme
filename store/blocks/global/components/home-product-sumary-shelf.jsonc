@@ -1,0 +1,35 @@
+{
+  "product-summary.shelf#global__home": {
+    "children": [
+      "product-summary-image#global__home",
+      "product-summary-name#global__home",
+      "product-selling-price#global__home"
+    ],
+    "props": {
+      "blockClass": "global__home"
+    }
+  },
+  "product-summary-image#global__home": {
+    "props": {
+      "showBadge": true,
+      "height": {
+        "desktop": 160,
+        "mobile": 160
+      },
+      "width": {
+        "desktop": 160,
+        "mobile": 160
+      }
+    }
+  },
+  "product-summary-name#global__home": {
+    "props": {
+      "blockClass": "global__home"
+    }
+  },
+  "product-selling-price#global__home": {
+    "props": {
+      "blockClass": "global__home"
+    }
+  }
+}

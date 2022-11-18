@@ -1,146 +1,151 @@
 {
-  "menu#mobile__footer--menu": {
+  "menu#global__footer--support": {
     "children": [
-      "menu-item#support",
-      "menu-item#about-us",
-      "menu-item#social-networks"
+      "menu-item#global__footer--warranty",
+      "menu-item#global__footer--shipments",
+      "menu-item#global__footer--billing",
+      "menu-item#global__footer--return-policy",
+      "menu-item#global__footer--promotions",
+      "menu-item#global__footer--industry-and-commerce-superintendency"
     ],
-    "props":{
+    "props": {
       "orientation": "vertical"
     }
   },
-  "menu-item#support":{
+  "menu-item#global__footer--warranty": {
     "props": {
-      "id":"support",
-      "type":"custom",
-      "itemProps":{
-        "tagTitle":"Support title",
-        "text": "Soporte"
-      }
-    },
-    "blocks": ["submenu.accordion#support"]
-  },
-  "submenu.accordion#support":{
-    "children":[
-      "menu#support"
-    ]
-  },
-  "menu#support":{
-    "children": [
-      "menu-item#warranty",
-      "menu-item#shipments",
-      "menu-item#billing",
-      "menu-item#return-policy",
-      "menu-item#promotions"
-    ],
-    "props":{
-      "orientation": "vertical"
-    }    
-  },
-  "menu-item#warranty":{
-    "props": {
-      "id":"warranty",
-      "type":"custom",
-      "itemProps":{
+      "id": "warranty",
+      "type": "custom",
+      "itemProps": {
         "type": "external",
         "href": "https://www.google.com/",
-        "tagTitle":"warranty title",
+        "tagTitle": "warranty title",
         "text": "Garantías"
-      }
+      },
+      "blockClass": "menu__item"
     }
   },
-  "menu-item#shipments":{
+  "menu-item#global__footer--shipments": {
     "props": {
-      "id":"shipments",
-      "type":"custom",
-      "itemProps":{
+      "id": "shipments",
+      "type": "custom",
+      "itemProps": {
         "type": "external",
         "href": "https://www.google.com/",
-        "tagTitle":"shipments title",
+        "tagTitle": "shipments title",
         "text": "F.A.Q. Envíos"
-      }
+      },
+      "blockClass": "menu__item"
     }
   },
-  "menu-item#billing":{
+  "menu-item#global__footer--billing": {
     "props": {
-      "id":"billing",
-      "type":"custom",
-      "itemProps":{
+      "id": "billing",
+      "type": "custom",
+      "itemProps": {
         "type": "external",
         "href": "https://www.google.com/",
-        "tagTitle":"billing title",
+        "tagTitle": "billing title",
         "text": "Facturación"
-      }
+      },
+      "blockClass": "menu__item"
     }
   },
-  "menu-item#return-policy":{
+  "menu-item#global__footer--return-policy": {
     "props": {
-      "id":"return-policys",
-      "type":"custom",
-      "itemProps":{
+      "id": "return-policys",
+      "type": "custom",
+      "itemProps": {
         "type": "external",
         "href": "https://www.google.com/",
-        "tagTitle":"return-policy title",
+        "tagTitle": "return-policy title",
         "text": "Politicas de Devolución"
-      }
+      },
+      "blockClass": "menu__item"
     }
   },
-  "menu-item#promotions":{
+  "menu-item#global__footer--promotions": {
     "props": {
-      "id":"promotions",
-      "type":"custom",
-      "itemProps":{
+      "id": "promotions",
+      "type": "custom",
+      "itemProps": {
         "type": "external",
         "href": "https://www.google.com/",
-        "tagTitle":"promotions title",
+        "tagTitle": "promotions title",
         "text": "Promociones"
-      }
+      },
+      "blockClass": "menu__item"
     }
   },
-  "menu-item#about-us":{
-    "props": {
-      "id":"About us",
-      "type":"custom",
-      "itemProps":{
-        "tagTitle":"About us title",
-        "text": "Sobre Nosotros"
-      }
-    },
-    "blocks": ["submenu.accordion#about-us"]
-  },
-  "submenu.accordion#about-us":{
-    "children":[
-      "menu#about-us"
-    ]
-  },
-  "menu#about-us":{
+
+  "menu#global__footer--about-us": {
     "children": [
+      "menu-item#global__footer--tekmovil",
+      "menu-item#global__footer--notice-of-privacy",
+      "menu-item#global__footer--terms-and-conditions"
     ],
-    "props":{
-      "orientation": "vertical"
-    }    
-  },
-  "menu-item#social-networks":{
     "props": {
-      "id":"Social Networks",
-      "type":"custom",
-      "itemProps":{
-        "tagTitle":"Social Networks title",
-        "text": "Síguenos"
-      }
-    },
-    "blocks": ["submenu.accordion#social-networks"]
-  },
-  "submenu.accordion#social-networks":{
-    "children":[
-      "menu#social-networks"
-    ]
-  },
-  "menu#social-networks":{
-    "children": [
-    ],
-    "props":{
       "orientation": "vertical"
-    }    
+    }
+  },
+  "menu-item#global__footer--tekmovil": {
+    "props": {
+      "id": "tekmovil",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "tagTitle": "tekmovil title",
+        "text": "Tekmovil"
+      },
+      "blockClass": "menu__item"
+    }
+  },
+  "menu-item#global__footer--notice-of-privacy": {
+    "props": {
+      "id": "notice-of-privacy",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "tagTitle": "notice of privacy title",
+        "text": "Aviso de privacidad"
+      },
+      "blockClass": "menu__item"
+    }
+  },
+  "menu-item#global__footer--terms-and-conditions": {
+    "props": {
+      "id": "terms-and-conditions",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "tagTitle": "terms and conditions title",
+        "text": "Terminos y condiciones"
+      },
+      "blockClass": "menu__item"
+    }
+  },
+  "menu-item#global__footer--industry-and-commerce-superintendency": {
+    "props": {
+      "id": "industry-and-commerce-superintendency",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "tagTitle": "industry and commerce superintendency title",
+        "text": "Superintendencia de industria y comercio"
+      },
+      "blockClass": "menu__item"
+    }
+  },
+  "menu#global__footer--social-networks": {
+    "children": [
+      "flex-layout.col#global__footer-social-items"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
   }
 }

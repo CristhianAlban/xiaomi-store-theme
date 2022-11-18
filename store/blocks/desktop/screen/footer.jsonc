@@ -1,13 +1,12 @@
 {
-  "footer-layout.desktop": {
+  "footer-layout.desktop#desktop__footer--main": {
     "children": [
       "flex-layout.row#desktop__footer--badges",
       "flex-layout.row#desktop__footer--newsletter",
-      "flex-layout.row#desktop__footer--menu",
-      "flex-layout.row#desktop__footer--info"
+      "flex-layout.row#desktop__footer--menu-info"
     ],
     "props": {
-      "blockClass": "footer__desktop--main"
+      "blockClass": "desktop__footer--main"
     }
   },
   "flex-layout.row#desktop__footer--badges": {
@@ -25,19 +24,8 @@
       "newsletter-form#global__footer"
     ],
     "props": {
-      "blockClass": "desktop__footer--newsletter"
-    }
-  },
-  "flex-layout.row#desktop__footer--menu": {
-    "children": [],
-    "props": {
-      "blockClass": "desktop__footer--menu"
-    }
-  },
-  "flex-layout.row#desktop__footer--info": {
-    "children": [],
-    "props": {
-      "blockClass": "desktop__footer--info"
+      "blockClass": "desktop__footer--newsletter",
+      "preventHorizontalStretch": true
     }
   }
 }

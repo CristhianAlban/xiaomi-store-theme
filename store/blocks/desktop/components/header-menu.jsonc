@@ -1,1 +1,191 @@
-{}
+{
+  "flex-layout.row#desktop__header--top-menu": {
+    "children": [
+      "flex-layout.col#desktop__header--logo",
+      "flex-layout.col#desktop__header--grow",
+      "flex-layout.col#desktop__header--menu"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "desktop__header--top-menu"
+    }
+  },
+  "flex-layout.col#desktop__header--logo": {
+    "children": [
+      "logo#desktop__header--menu-logo"
+    ]
+  },
+  "logo#desktop__header--menu-logo": {
+    "title": "Logo",
+    "props": {
+      "url": "assets/img/menu__logo-desktop.png",
+      "width": 50,
+      "href": "/",
+      "blockClass": "logomenu"
+    }
+  },
+  "flex-layout.col#desktop__header--grow": {
+    "children": [],
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#desktop__header--menu": {
+    "children": [
+      "menu#desktop__header--menu"
+    ]
+  },
+  "menu#desktop__header--menu": {
+    "children": [
+      "menu-item#desktop__header--smartphones",
+      "menu-item#desktop__header--home",
+      "menu-item#desktop__header--movility",
+      "menu-item#desktop__header--fitness",
+      "menu-item#desktop__header--gadgets",
+      "menu-item#desktop__header--audio",
+      "menu-item#desktop__header--all"
+    ],
+    "props": {
+      "blockClass": "desktop__header--menu"
+    }
+  },
+  "menu-item#desktop__header--smartphones": {
+    "props": {
+      "id": "smartphones",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "tagTitle": "smartphones title",
+        "text": "Smartphones"
+      },
+      "blockClass": "header__menu--item"
+    },
+    "blocks": [
+      "submenu#smartphones"
+    ]
+  },
+  "submenu#smartphones": {
+    "children": [
+      "list-context.product-list#demo1"
+    ]
+  },
+  "menu-item#desktop__header--home": {
+    "props": {
+      "id": "home",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "tagTitle": "home title",
+        "text": "Hogar Conectado"
+      },
+      "blockClass": "header__menu--item"
+    },
+    "blocks": [
+      "submenu#home"
+    ]
+  },
+  "submenu#home": {
+    "children": [
+      "list-context.product-list#demo1"
+    ]
+  },
+  "menu-item#desktop__header--movility": {
+    "props": {
+      "id": "movility",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "tagTitle": "movility title",
+        "text": "Movilidad"
+      },
+      "blockClass": "header__menu--item"
+    },
+    "blocks": [
+      "submenu#movility"
+    ]
+  },
+  "submenu#movility": {
+    "children": [
+      "list-context.product-list#demo1"
+    ]
+  },
+  "menu-item#desktop__header--fitness": {
+    "props": {
+      "id": "fitness",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "tagTitle": "fitness title",
+        "text": "Fitness & Estilo de vida"
+      },
+      "blockClass": "header__menu--item"
+    },
+    "blocks": [
+      "submenu#fitness"
+    ]
+  },
+  "submenu#fitness": {
+    "children": [
+      "list-context.product-list#demo1"
+    ]
+  },
+  "menu-item#desktop__header--gadgets": {
+    "props": {
+      "id": "gadgets",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "tagTitle": "gadgets title",
+        "text": "Gadgets & Juguetes"
+      },
+      "blockClass": "header__menu--item"
+    },
+    "blocks": [
+      "submenu#gadgets"
+    ]
+  },
+  "submenu#gadgets": {
+    "children": [
+      "list-context.product-list#demo1"
+    ]
+  },
+  "menu-item#desktop__header--audio": {
+    "props": {
+      "id": "audio",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "tagTitle": "audio title",
+        "text": "Audio"
+      },
+      "blockClass": "header__menu--item"
+    },
+    "blocks": [
+      "submenu#audio"
+    ]
+  },
+  "submenu#audio": {
+    "children": [
+      "list-context.product-list#demo1"
+    ]
+  },
+  "menu-item#desktop__header--all": {
+    "props": {
+      "id": "all",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "tagTitle": "all title",
+        "text": "Ver Todo"
+      },
+      "blockClass": "header__menu--item"
+    }
+  }
+}

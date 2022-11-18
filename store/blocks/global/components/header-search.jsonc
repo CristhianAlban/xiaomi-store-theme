@@ -1,13 +1,13 @@
 {
-  "search-bar#header__search":{
-    "blocks":[
+  "search-bar#header__search": {
+    "blocks": [
       "autocomplete-result-list.v2"
     ],
-    "props":{
+    "props": {
       "placeholder": "Buscar productos",
-      "openAutocompleteOnFocus":true,
+      "openAutocompleteOnFocus": true,
       "maxWidth": 260,
-      "blockClass":"header__search"
-    }    
+      "blockClass": "header__search"
+    }
   }
 }

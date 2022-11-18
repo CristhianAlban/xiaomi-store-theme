@@ -1,0 +1,68 @@
+{
+  "flex-layout.row#desktop__footer--menu-info": {
+    "children": [
+      "flex-layout.col#desktop__footer--menu-info"
+    ],
+    "props": {
+      "blockClass": "desktop__footer--menu-info"
+    }
+  },
+  "flex-layout.col#desktop__footer--menu-info": {
+    "children": [
+      "flex-layout.row#desktop__footer--menu-info-content",
+      "rich-text#global__footer--rights"
+    ],
+    "props": {
+      "blockClass": "desktop__footer--menu-info"
+    }
+  },
+  "flex-layout.row#desktop__footer--menu-info-content": {
+    "children": [
+      "flex-layout.col#desktop__footer--menu-support",
+      "flex-layout.col#desktop__footer--menu-about-us",
+      "flex-layout.col#desktop__footer--menu-social-networks",
+      "flex-layout.col#desktop__footer--menu-grow",
+      "flex-layout.col#global__footer--menu-info"
+    ],
+    "props": {
+      "blockClass": "desktop__footer--menu-info-content",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#desktop__footer--menu-support": {
+    "children": [
+      "rich-text#menu__title--support",
+      "menu#global__footer--support"
+    ],
+    "props": {
+      "blockClass": "desktop__footer--menu-container",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#desktop__footer--menu-about-us": {
+    "children": [
+      "rich-text#menu__title--about-us",
+      "menu#global__footer--about-us"
+    ],
+    "props": {
+      "blockClass": "desktop__footer--menu-container",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#desktop__footer--menu-social-networks": {
+    "children": [
+      "rich-text#menu__title--social-networks",
+      "menu#global__footer--social-networks"
+    ],
+    "props": {
+      "blockClass": "desktop__footer--menu-container",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#desktop__footer--menu-grow": {
+    "children": [],
+    "props": {
+      "width": "grow"
+    }
+  }
+}

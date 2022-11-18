@@ -1,0 +1,117 @@
+{
+  "image#footer__image--facebook": {
+    "title": "logo facebook",
+    "props": {
+      "src": "assets/img/footer__social-facebook.png",
+      "blockClass": "social--logo",
+      "link": {
+        "url": "https://www.facebook.com/XiaomiStoreColombia/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#footer__image--instagram": {
+    "title": "logo instagram",
+    "props": {
+      "src": "assets/img/footer__social-instagram.png",
+      "blockClass": "social--logo",
+      "link": {
+        "url": "https://www.instagram.com/xiaomistore_co/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#footer__image--payments1": {
+    "title": "payments1",
+    "props": {
+      "src": "assets/img/footer__payments1.png",
+      "blockClass": "payments--logo",
+      "maxHeight": 30,
+      "link": {
+        "url": "/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#footer__image--payments2": {
+    "title": "payments2",
+    "props": {
+      "src": "assets/img/footer__payments2.png",
+      "blockClass": "payments--logo",
+      "maxHeight": 24,
+      "link": {
+        "url": "/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#footer__image--payments3": {
+    "title": "payments3",
+    "props": {
+      "src": "assets/img/footer__payments3.png",
+      "blockClass": "payments--logo",
+      "maxHeight": 25,
+      "link": {
+        "url": "/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#footer__image--payments4": {
+    "title": "payments4",
+    "props": {
+      "src": "assets/img/footer__payments4.png",
+      "blockClass": "payments--logo",
+      "maxHeight": 13,
+      "link": {
+        "url": "/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#footer__image--payments5": {
+    "title": "payments5",
+    "props": {
+      "src": "assets/img/footer__payments5.png",
+      "blockClass": "payments--logo",
+      "maxHeight": 21,
+      "link": {
+        "url": "/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#footer__image--payments6": {
+    "title": "payments6",
+    "props": {
+      "src": "assets/img/footer__payments6.png",
+      "blockClass": "payments--logo",
+      "maxHeight": 21,
+      "link": {
+        "url": "/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#footer__image--payments-null": {
+    "title": "payments null",
+    "props": {
+      "src": "",
+      "blockClass": "payments--logo",
+      "maxHeight": 21,
+      "link": {
+        "url": "/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  }
+}
