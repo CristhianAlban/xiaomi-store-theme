@@ -1,0 +1,24 @@
+{
+  "product-summary.shelf#search__result": {
+    "children": [
+      "add-to-list-btn",
+      "product-summary-image",
+      "product-summary-name",
+      "product-list-price",
+      "product-rating-inline",
+      "product-selling-price",
+      "product-summary-sku-selector",
+      "add-to-cart-button"
+    ]
+  },
+  "product-summary-name": {
+    "props": {
+      "tag": "h3"
+    }
+  },
+  "product-summary-sku-selector": {
+    "props": {
+      "hideImpossibleCombinations": false
+    }
+  }
+}

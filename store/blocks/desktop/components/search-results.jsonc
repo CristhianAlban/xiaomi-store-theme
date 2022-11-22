@@ -1,0 +1,59 @@
+{
+  "search-result-layout.desktop#desktop__search-results": {
+    "children": [
+      "flex-layout.row#global__margin--top",
+      "flex-layout.row#global__margin--top",
+      "flex-layout.row#desktop__sugestion-search",
+      "flex-layout.row#global__breadcrumb--search",
+      "flex-layout.row#desktop__search--results"
+    ],
+    "props": {
+      "blockClass": "desktop__search-results"
+    }
+  },
+  "flex-layout.row#desktop__sugestion-search":{
+    "children":[
+      "search-suggestions"
+    ],
+    "props": {
+      "blockClass": "desktop__sugestion-search"
+    }
+  },
+  "flex-layout.row#desktop__search--results": {
+    "children": [
+      "flex-layout.col#search__results--content"
+    ]
+  },
+  "flex-layout.row#global__breadcrumb--search": {
+    "title": "Miga de pan",
+    "children": [
+      "flex-layout.col#global__breadcrumb--search",
+      "flex-layout.col#global__order-count"
+    ],
+    "props": {
+      "blockClass": "breadcrumb__class"
+    }
+  },
+  "flex-layout.col#global__breadcrumb--search": {
+    "children": [
+      "breadcrumb",
+      "rich-text#prueba"
+    ]
+  },
+  "flex-layout.col#global__order-count": {
+    "children": [
+      "flex-layout.row#global__order-count"
+    ]
+  },
+  "flex-layout.row#global__order-count": {
+    "children": [
+      "total-products.v2",
+      "order-by.v2"
+    ]
+  },
+  "rich-text#prueba": {
+    "props": {
+      "text": "aqui deberia aparecer la miga de pan"
+    }
+  }
+}
