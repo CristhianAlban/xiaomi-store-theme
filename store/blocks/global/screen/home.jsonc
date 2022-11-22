@@ -3,7 +3,15 @@
     "blocks": [
       "list-context.image-list#home__slider--main",
       "flex-layout.row#home__section--one",
-      "flex-layout.row#home__section--two"
+      "flex-layout.row#home__section--two",
+      "whatsapp-button"
     ]
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/whatsapp-logo.png",
+      "phone": "3165166685",
+      "message": "epa la arepa"
+    }
   }
 }

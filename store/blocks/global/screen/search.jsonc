@@ -1,7 +1,100 @@
 {
   "store.search": {
-    "blocks": [
-      
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skuFilter":"FIRST_AVAIBLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#category": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skuFilter":"FIRST_AVAIBLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#subcategory": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skuFilter":"FIRST_AVAIBLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#brand": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skuFilter":"FIRST_AVAIBLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "product-summary.shelf": {
+    "children": [
+      "add-to-list-btn",
+      "product-summary-image",
+      "product-summary-name",
+      "product-list-price",
+      "product-rating-inline",
+      "product-selling-price",
+      "product-summary-sku-selector",
+      "add-to-cart-button",
+      "modal-trigger#golbal__quick-view"
+    ]
+  },
+  "product-summary-name": {
+    "props": {
+      "tag": "h3"
+    }
+  },
+  "product-summary-sku-selector": {
+    "props": {
+      "hideImpossibleCombinations": false
+    }
+  },
+  "modal-trigger#golbal__quick-view": {
+    "children": [
+      "rich-text#global__quick-view--trigger",
+      "modal-layout#global__quick-view--modal"
+    ]
+  },
+  "rich-text#global__quick-view--trigger": {
+    "props": {
+      "text": "Vista rápida",
+      "blockClass": "quick-view__trigger"
+    }
+  },
+  "modal-layout#global__quick-view--modal": {
+    "children": [
+      "flex-layout.row#quick-view__modal"
+    ]
+  },
+  "flex-layout.row#quick-view__modal": {
+    "children": [
+      "flex-layout.col#quick-view__modal--image",
+      "flex-layout.col#quick-view__modal--info"
+    ]
+  },
+  "flex-layout.col#quick-view__modal--image": {
+    "children": [
+      "product-images"
+    ]
+  },
+  "flex-layout.col#quick-view__modal--info": {
+    "children": [      
+      "vtex.store-components:product-name",
+      "vtex.store-components:product-brand",
+      "product-price",
+      "product-description",
+      "share",
+      "product-quantity",
+      "add-to-cart-button"
     ]
   }
 }
