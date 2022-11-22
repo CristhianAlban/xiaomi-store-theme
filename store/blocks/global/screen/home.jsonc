@@ -16,14 +16,24 @@
     }
   },
   "list-context.bullet-group": {
+    "title": "mi contexto de lista de Bullets",
     "props": {
-      "bullets": {
-        "image":"mitexto.png",
-        "titleBullet": "Computadores",
-        "link": {
-          "url": "/"
+      "bullets": [
+        {
+          "image":"assets/img/portatil.jpg",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image":"assets/img/medias.jpg",
+          "titleBullet": "ropa",
+          "link": {
+            "url": "/"
+          }
         }
-      }
+      ]
     }
   }
 }
