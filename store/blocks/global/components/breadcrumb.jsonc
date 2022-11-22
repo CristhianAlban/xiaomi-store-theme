@@ -1,0 +1,9 @@
+{
+  "flex-layout.row#global__breadcrumb":{
+        "title": "Miga de pan",
+        "children": ["flex-layout.col#global__breadcrumb"]
+    },
+    "flex-layout.col#global__breadcrumb": {
+        "children": ["breadcrumb"]
+    }
+}
