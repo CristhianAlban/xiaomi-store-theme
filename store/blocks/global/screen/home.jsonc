@@ -17,6 +17,7 @@
   },
   "list-context.bullet-group": {
     "title": "mi contexto de lista de Bullets",
+    "children": ["slider-layout#bullet-group"],
     "props": {
       "bullets": [
         {
@@ -32,8 +33,46 @@
           "link": {
             "url": "/"
           }
+        },
+        {
+          "image":"assets/img/portatil.jpg",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image":"assets/img/medias.jpg",
+          "titleBullet": "ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image":"assets/img/portatil.jpg",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image":"assets/img/medias.jpg",
+          "titleBullet": "ropa",
+          "link": {
+            "url": "/"
+          }
         }
       ]
+    }
+  },
+  "slider-layout#bullet-group":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 5,
+        "phone": 5
+      },
+      "infinite":true
     }
   }
 }
