@@ -1,0 +1,11 @@
+.sellingPrice--search__result {
+  font-size     : 15.5px;
+  font-weight   : 400;
+  font-stretch  : normal;
+  font-style    : normal;
+  letter-spacing: normal;
+  text-align    : left;
+  color         : #ff6900;
+  margin        : 0;
+  padding       : 0;
+}
