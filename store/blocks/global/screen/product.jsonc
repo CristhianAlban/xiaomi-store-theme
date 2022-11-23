@@ -1,9 +1,20 @@
 {
   "store.product": {
     "children": [
-      "flex-layout.row#global__margin--top",
-      "flex-layout.row#global__margin--top",
-      "flex-layout.row#global__breadcrumb",
+      "flex-layout.row#global__pdp--container"
+    ]
+  },
+  "flex-layout.row#global__pdp--container": {
+    "children": [
+      "flex-layout.col#global__pdp--container"
+    ],
+    "props": {
+      "blockClass": "global__pdp--container"
+    }
+  },
+  "flex-layout.col#global__pdp--container": {
+    "children": [
+      "flex-layout.row#product__breadcrumb",
       "flex-layout.row#product__info",
       "flex-layout.row#product__tabs"
     ]
@@ -14,13 +25,13 @@
       "tab-layout#product__tabs"
     ]
   },
-  "tab-layout#product__tabs":{
+  "tab-layout#product__tabs": {
     "children": [
       "tab-list#product__tabs--list",
       "tab-content#product__tabs--content"
     ]
   },
-  "tab-list#product__tabs--list":{
+  "tab-list#product__tabs--list": {
     "children": [
       "tab-list.item#tabs__list--reviews-and-ratings",
       "tab-list.item#tabs__list--product-specification",
@@ -55,7 +66,7 @@
       "tab-content.item#tabs__content--questions"
     ]
   },
-  "tab-content.item#tabs__content--reviews-and-ratings":{
+  "tab-content.item#tabs__content--reviews-and-ratings": {
     "props": {
       "tabId": "reviews-and-ratings"
     },
@@ -63,7 +74,7 @@
       "product-reviews"
     ]
   },
-  "tab-content.item#tabs__content--product-specification":{
+  "tab-content.item#tabs__content--product-specification": {
     "props": {
       "tabId": "product-specification"
     },
@@ -71,7 +82,7 @@
       "product-specifications"
     ]
   },
-  "tab-content.item#tabs__content--questions":{
+  "tab-content.item#tabs__content--questions": {
     "props": {
       "tabId": "questions"
     },
