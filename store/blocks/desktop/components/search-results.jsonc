@@ -36,8 +36,7 @@
   },
   "flex-layout.col#global__breadcrumb--search": {
     "children": [
-      "breadcrumb",
-      "rich-text#prueba"
+      "breadcrumb.search"
     ]
   },
   "flex-layout.col#global__order-count": {
@@ -50,10 +49,5 @@
       "total-products.v2",
       "order-by.v2"
     ]
-  },
-  "rich-text#prueba": {
-    "props": {
-      "text": "aqui deberia aparecer la miga de pan"
-    }
   }
 }
