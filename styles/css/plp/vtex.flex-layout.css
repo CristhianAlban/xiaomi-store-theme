@@ -1,0 +1,12 @@
+.flexRow--product-sumary-shelf__name--price {
+  padding: 5px 25px;
+}
+
+.flexCol--product-sumary-shelf__price {
+  padding-top    : 1rem;
+  padding-bottom : 1rem;
+  justify-content: flex-end;
+  text-align     : right;
+  height         : 85px;
+  align-items    : flex-end;
+}
