@@ -1,4 +1,4 @@
 .bullet__item--title {
-  color: magenta;
+  color: var(--main-text-color);
   font-weight: 700;
 }
