@@ -1,0 +1,12 @@
+{
+  "search-result-layout.mobile#mobile__search-results": {
+    "children": [
+      "flex-layout.row#mobile__search--results"
+    ]
+  },
+  "flex-layout.row#mobile__search--results": {
+    "children": [
+      "flex-layout.col#search__results--content"
+    ]
+  }
+}
