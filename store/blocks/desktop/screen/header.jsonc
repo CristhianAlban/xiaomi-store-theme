@@ -25,7 +25,8 @@
     "title": "Header superior",
     "children": [
       "link#header__link--shipping",
-      "search-bar#header__search",
+      "department-search",
+      //"search-bar#header__search",
       "flex-layout.row#desktop__header-top--login-minicart"
     ],
     "props": {
