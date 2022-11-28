@@ -9,11 +9,6 @@
       "blockClass": "search__result"
     }
   },
-  "product-summary-name": {
-    "props": {
-      "tag": "h3"
-    }
-  },
   "flex-layout.row#product-sumary-shelf__name--price": {
     "children": [
       "product-summary-name#product-sumary-shelf__name--price",
