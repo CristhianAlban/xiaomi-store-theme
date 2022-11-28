@@ -9,10 +9,5 @@
     "children": [
       "minicart-base-content"
     ]
-  },
-  "rich-text#minicart": {
-    "props": {
-      "text": "carrito"
-    }
   }
 }
