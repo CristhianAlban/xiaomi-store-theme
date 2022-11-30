@@ -1,23 +1,23 @@
 .imageElement--home__slider {
-    max-height: none !important;
-    z-index: -4;
+  max-height: none !important;
+  z-index   : -4;
 }
 
 .slideChildrenContainer--home__slider--product {
-    padding: 0.75rem;
+  padding: 0.75rem;
 }
 
 .sliderArrows--home__slider {
-    margin: 0 40px;
+  margin: 0 40px;
 }
 
 .caretIcon--home__slider {
-    color         : #fff;
-    -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .2));
-    filter        : drop-shadow(3px 3px 2px rgba(0, 0, 0, .2));
+  color         : #fff;
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .2));
+  filter        : drop-shadow(3px 3px 2px rgba(0, 0, 0, .2));
 }
 
 .sliderLayoutContainer--home__slider--product {
-    padding-left : 10px !important;
-    padding-right: 10px !important;
+  padding-left : 10px !important;
+  padding-right: 10px !important;
 }

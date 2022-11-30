@@ -1,16 +1,16 @@
 .flexRowContent--section_one-prom--row {
-    padding-top    : 1.5rem;
-    padding-bottom : 0.75rem;
-    justify-content: center;
+  padding-top    : 1.5rem;
+  padding-bottom : 0.75rem;
+  justify-content: center;
 }
 
 .flexRowContent--section_one-prom--row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-    margin: 0 9px;
+  margin: 0 9px;
 }
 
 .flexRow--home__section--two,
 .flexRow--section_one-prom {
-    max-width: 1260px;
-    margin   : 0 auto;
-    width    : 100%;
+  max-width: 1260px;
+  margin   : 0 auto;
+  width    : 100%;
 }
