@@ -1,4 +1,9 @@
 {
+  "rich-text#test": {
+    "props": {
+      "text": "texto de prueba"
+    }
+  },
   "rich-text#header__top--shipping": {
     "props": {
       "text": "ENVÍO GRATIS A PARTIR DE $400 MIL",

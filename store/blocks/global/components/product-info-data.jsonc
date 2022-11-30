@@ -42,7 +42,8 @@
       "flex-layout.row#pdp__info--bullets",
       "sku-selector",
       "flex-layout.row#pdp__info--quantity-price",
-      "flex-layout.row#pdp__info--buttom"
+      "flex-layout.row#pdp__info--buttom",
+      "flex-layout.row#video_example_custom_app"
     ],
     "props": {
       "width": "40%"
@@ -89,5 +90,24 @@
     "children": [
       "add-to-cart-button"
     ]
+  },
+  "flex-layout.row#video_example_custom_app":{
+    "children": [
+      "modal-trigger#add-tocart-info"
+    ]
+  },
+  "modal-trigger#add-tocart-info":{
+    "children": [
+      "modal-layout#add-to-cart-info"
+    ],
+    "props": {
+      "customPixelEventName": "addToCart"
+    }
+  },
+  "modal-layout#add-to-cart-info":{
+    "children": [
+      "add-to-cart-info"
+    ]
+
   }
 }
