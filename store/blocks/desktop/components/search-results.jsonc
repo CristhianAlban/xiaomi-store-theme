@@ -11,8 +11,8 @@
       "blockClass": "desktop__search-results"
     }
   },
-  "flex-layout.row#desktop__sugestion-search":{
-    "children":[
+  "flex-layout.row#desktop__sugestion-search": {
+    "children": [
       "search-suggestions"
     ],
     "props": {

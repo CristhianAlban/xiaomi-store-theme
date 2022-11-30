@@ -6,8 +6,7 @@
     "props": {
       "placeholder": "Buscar productos",
       "openAutocompleteOnFocus": true,
-      "maxWidth": 260,
-      "blockClass": "header__search"
+      "maxWidth": 260
     }
   }
 }
