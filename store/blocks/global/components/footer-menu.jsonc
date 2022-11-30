@@ -148,8 +148,8 @@
       "orientation": "vertical"
     }
   },
-  "flex-layout.row#global__footer-social-items": {
-    "children": [
+  "flex-layout.row#global__footer-social-items":{
+    "children":[
       "flex-layout.col#global__footer-social-items"
     ]
   }

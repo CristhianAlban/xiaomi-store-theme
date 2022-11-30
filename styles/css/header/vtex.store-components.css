@@ -1,70 +1,67 @@
 .searchBarContainer {
-  width           : 260px;
-  display         : flex;
-  align-items     : center;
-  justify-content : center;
-  background-color: #1c1c1c;
-  color           : #f5f5f5;
+    width           : 260px;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    background-color: #1c1c1c;
+    color           : #f5f5f5;
 }
 
 .searchBarContainer :global(.vtex-input-prefix__group) {
-  height         : 30px;
-  border         : 0;
-  border-radius  : 0;
-  display        : flex;
-  justify-content: center;
+    height         : 30px;
+    border         : 0;
+    border-radius  : 0;
+    display        : flex;
+    justify-content: center;
 }
 
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
-  background-color: transparent;
-  border-bottom   : 1px solid #fff;
-  margin-bottom   : 5px;
+    background-color: transparent;
+    border-bottom   : 1px solid #fff;
+    margin-bottom   : 5px;
 }
 
 .searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
-  color         : #a8a8a8;
-  background    : transparent;
-  font-size     : 13px;
-  font-weight   : 700;
-  font-stretch  : normal;
-  font-style    : normal;
-  line-height   : 1.35;
-  letter-spacing: normal;
+    color         : #a8a8a8;
+    background    : transparent;
+    font-size     : 13px;
+    font-weight   : 700;
+    font-stretch  : normal;
+    font-style    : normal;
+    line-height   : 1.35;
+    letter-spacing: normal;
 }
 
 .searchBarContainer :global(.vtex-input__suffix) {
-  color     : #b0b0b0;
-  background: transparent;
-  padding   : 0 0 0 6px;
+    color     : #b0b0b0;
+    background: transparent;
+    padding   : 0 0 0 6px;
 }
 
 .searchBarIcon {
-  color  : #b0b0b0;
-  padding: 0;
-  margin : 0;
+    color  : #b0b0b0;
+    padding: 0;
+    margin : 0;
 }
-
 .logoContainer--logomenu {
-  position     : relative;
-  width        : 55px;
-  height       : 55px;
-  display      : block;
-  overflow     : hidden;
-  margin-left  : 0;
-  padding-left : 0;
-  padding-right: 0;
-  max-width    : 55px;
-  min-width    : 55px;
+    position: relative;
+    width: 55px;
+    height: 55px;
+    display: block;
+    overflow: hidden;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 55px;
+    min-width: 55px;
 }
-
 .logoImage--logomenu {
-  position  : absolute;
-  width     : 112px;
-  left      : -55px;
-  transition: all .2s ease-in-out;
-  max-width : 110px;
+    position: absolute;
+    width: 112px;
+    left: -55px;
+    transition: all .2s ease-in-out;
+    max-width: 110px;
 }
-
 .logoImage--logomenu:hover {
-  left: 0px;
+    left: 0px;
 }
