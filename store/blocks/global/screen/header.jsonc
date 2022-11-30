@@ -1,36 +1,36 @@
 {
-  "header": {
-    "title": "Header",
+  "header":{
+    "title":"Header",
     "blocks": [
       "header-layout.desktop",
       "header-layout.mobile"
     ]
   },
-  "header.full": {
-    "title": "Header",
+  "header.full":{
+    "title":"Header",
     "blocks": [
       "header-layout.desktop",
       "header-layout.mobile"
     ]
   },
-  "link#header__link--shipping": {
-    "children": [
+  "link#header__link--shipping":{
+    "children":[
       "rich-text#header__top--shipping"
     ],
-    "props": {
-      "href": "/",
+    "props":{
+      "href":"/",
       "blockClass": "link__header"
     }
-  },
-  "logo#header__top--logo": {
+  },  
+  "logo#header__top--logo":{
     "title": "Logo",
-    "props": {
-      "url": "assets/img/header__logo-prueba.png",
+    "props":{
+      "url":"assets/img/header__logo-prueba.png",
       "width": 50,
-      "href": "/"
+      "href":"/"
     }
   },
-  "login#desktop": {
+  "login#desktop":{
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",

@@ -3,7 +3,132 @@
     "blocks": [
       "list-context.image-list#home__slider--main",
       "flex-layout.row#home__section--one",
-      "flex-layout.row#home__section--two"
+      "flex-layout.row#home__section--two",
+      "flex-layout.row#bullets",
+      "whatsapp-button",
+      "quick-order",
+      "custom-grid"
     ]
+  },
+  "custom-grid":{
+    "children": [
+      "rich-text#cutom-grid-1",
+      "rich-text#cutom-grid-2",
+      "rich-text#cutom-grid-3",
+      "rich-text#cutom-grid-4",
+      "rich-text#cutom-grid-5"
+    ]
+  },
+  "rich-text#cutom-grid-1":{
+    "props": {
+      "text": "Item de grilla 1"
+    }
+  },
+  "rich-text#cutom-grid-2":{
+    "props": {
+      "text": "Item de grilla 2"
+    }
+  },
+  "rich-text#cutom-grid-3":{
+    "props": {
+      "text": "Item de grilla 3"
+    }
+  },
+  "rich-text#cutom-grid-4":{
+    "props": {
+      "text": "Item de grilla 4"
+    }
+  },
+  "rich-text#cutom-grid-5":{
+    "props": {
+      "text": "Item de grilla 5"
+    }
+  },
+
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/whatsapp-logo.png",
+      "phone": "3165166685",
+      "message": "epa la arepa"
+    }
+  },
+  "flex-layout.row#bullets":{
+    "children": [
+      "list-context.bullet-group"
+    ]
+  },
+  "list-context.bullet-group": {
+    "title": "mi contexto de lista de Bullets",
+    "children": ["slider-layout#bullet-group"],
+    "props": {
+      "bullets": [
+        {
+          "image":"assets/img/portatil.jpg",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image":"assets/img/medias.jpg",
+          "titleBullet": "ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image":"assets/img/portatil.jpg",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image":"assets/img/medias.jpg",
+          "titleBullet": "ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image":"assets/img/portatil.jpg",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image":"assets/img/medias.jpg",
+          "titleBullet": "ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image":"assets/img/portatil.jpg",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image":"assets/img/medias.jpg",
+          "titleBullet": "ropa",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 5,
+        "phone": 5
+      },
+      "infinite":true
+    }
   }
 }

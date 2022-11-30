@@ -1,71 +1,71 @@
 .openIconContainer {
-  padding: 0 !important;
-  margin : 0;
+    padding: 0 !important;
+    margin : 0;
 }
 
 .openIconContainer :global(.vtex-button) {
-  width      : 100%;
-  min-width  : 40px;
-  display    : flex;
-  position   : relative;
-  padding    : 0;
-  align-items: center;
-  border     : none;
-  outline    : none;
+    width      : 100%;
+    min-width  : 40px;
+    display    : flex;
+    position   : relative;
+    padding    : 0;
+    align-items: center;
+    border     : none;
+    outline    : none;
 }
 
 .openIconContainer :global(.vtex-button):hover {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 .minicartIconContainer {
-  font-size: 11.5px;
-  display  : flex;
-  flex-flow: row nowrap;
+    font-size: 11.5px;
+    display  : flex;
+    flex-flow: row nowrap;
 }
 
 .minicartIconContainer::before,
 .minicartQuantityBadgeDefault {
-  font-size      : 11.5px;
-  font-weight    : 400;
-  font-stretch   : normal;
-  font-style     : normal;
-  line-height    : 1.52;
-  letter-spacing : normal;
-  text-align     : left;
-  color          : #a8a8a8;
-  text-decoration: none;
+    font-size      : 11.5px;
+    font-weight    : 400;
+    font-stretch   : normal;
+    font-style     : normal;
+    line-height    : 1.52;
+    letter-spacing : normal;
+    text-align     : left;
+    color          : #a8a8a8;
+    text-decoration: none;
 }
 
 .minicartIconContainer::before {
-  content: "CARRITO";
-  display: inline-block;
+    content: "CARRITO";
+    display: inline-block;
 }
 
 .minicartQuantityBadgeDefault {
-  background-color: transparent;
-  position        : relative;
-  top             : unset !important;
-  right           : unset !important;
-  padding         : 0 5px;
-  margin          : 0;
+    background-color: transparent;
+    position        : relative;
+    top             : unset !important;
+    right           : unset !important;
+    padding         : 0 5px;
+    margin          : 0;
 }
 
 .minicartQuantityBadgeDefault::before {
-  content      : "( ";
-  padding-right: 3px;
-  display      : block;
+    content      : "( ";
+    padding-right: 3px;
+    display      : block;
 }
 
 .minicartQuantityBadgeDefault::after {
-  content     : " )";
-  padding-left: 3px;
-  display     : block;
+    content     : " )";
+    padding-left: 3px;
+    display     : block;
 }
 
 @media only screen and (max-width: 1024px) {
-  .minicartIconContainer::before {
-    content: "";
-    display: none;
-  }
+    .minicartIconContainer::before {
+        content: "";
+        display: none;
+    }
 }
