@@ -26,3 +26,13 @@
   align-items    : center;
 }
 
+.flexCol--search__results--content {
+  width    : 100%;
+  max-width: 1240px;
+  margin   : 0 auto;
+  padding  : 0;
+}
+.flexColChild--search__results--content:last-child {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}

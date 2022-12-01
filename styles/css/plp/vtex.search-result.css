@@ -40,3 +40,6 @@
 .orderByOptionItem--selected{
   background-color: #e3e4e6;
 }
+.gallery--general-grid{
+  padding-left: 0 !important;
+}
