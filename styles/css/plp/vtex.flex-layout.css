@@ -10,3 +10,8 @@
   height         : 85px;
   align-items    : flex-end;
 }
+
+.flexRowContent--desktop__sugestion-search{
+  padding: 0 25px;
+}
+
