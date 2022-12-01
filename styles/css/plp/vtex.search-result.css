@@ -1,0 +1,42 @@
+.totalProducts--layout{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0;
+    padding-right: 20px;
+}
+.filterPopupTitle,
+.totalProducts--layout,
+.totalProductsMessage {
+  font-size: 13.5px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #1c1c1c;
+}
+.filterPopupTitle,
+.orderByText {
+  color: #ff6900!important;
+}
+.filterPopupArrowIcon {
+  padding: 0 0 0 5px;
+}
+.filterPopupArrowIcon,
+.caretIcon {
+  color: #ff6900!important;
+  fill: #ff6900!important;
+}
+.orderByButton{
+  background-color: transparent !important;
+}
+.orderByOptionsContainer{
+  background-color: #f5f5f5;
+}
+.orderByOptionItem{
+  background-color: #f5f5f5;
+  color: #878787;;
+}
+.orderByOptionItem--selected{
+  background-color: #e3e4e6;
+}
