@@ -51,7 +51,7 @@
     "title": "Imagen de Home",
     "props": {
       "src": "assets/img/home__banner1.jpg",
-      "blockClass": "home__image",
+      "blockClass": "home__banner",
       "link": {
         "url": "https://www.google.com/",
         "newTab": true,
@@ -63,7 +63,7 @@
     "title": "Imagen de Home",
     "props": {
       "src": "assets/img/home__banner2.jpg",
-      "blockClass": "home__image",
+      "blockClass": "home__banner",
       "link": {
         "url": "https://www.google.com/",
         "newTab": true,
@@ -75,7 +75,7 @@
     "title": "Imagen de Home",
     "props": {
       "src": "assets/img/home__banner3.jpg",
-      "blockClass": "home__image",
+      "blockClass": "home__banner",
       "link": {
         "url": "https://www.google.com/",
         "newTab": true,
@@ -87,7 +87,7 @@
     "title": "Imagen de Home",
     "props": {
       "src": "assets/img/home__banner4.jpg",
-      "blockClass": "home__image",
+      "blockClass": "home__banner",
       "link": {
         "url": "https://www.google.com/",
         "newTab": true,
@@ -99,7 +99,7 @@
     "title": "Imagen de Home",
     "props": {
       "src": "assets/img/home__banner5.jpg",
-      "blockClass": "home__image",
+      "blockClass": "home__banner",
       "link": {
         "url": "https://www.google.com/",
         "newTab": true,
