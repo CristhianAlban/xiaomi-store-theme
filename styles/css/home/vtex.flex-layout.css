@@ -8,9 +8,21 @@
   margin: 0 9px;
 }
 
+.flexRow--home__section--three,
 .flexRow--home__section--two,
 .flexRow--section_one-prom {
   max-width: 1260px;
   margin   : 0 auto;
   width    : 100%;
+}
+
+.flexRow--section__three--product-banners-banners-group {
+  padding-left : 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.flexRowContent--section__three--product-banners-banner-alone,
+.flexRowContent--section__three--product-banners-banners-group {
+  margin : 0 auto;
+  padding: 10px 9px;
 }

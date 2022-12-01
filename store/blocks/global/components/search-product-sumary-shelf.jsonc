@@ -38,6 +38,7 @@
   },
   "flex-layout.col#product-sumary-shelf__price": {
     "children": [
+      "product-list-price",
       "product-selling-price#search__result"
     ],
     "props": {

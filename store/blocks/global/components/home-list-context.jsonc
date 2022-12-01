@@ -67,5 +67,33 @@
       "fullWidth": false,
       "blockClass": "home__slider--product"
     }
+  },
+  "list-context.product-list#most-sellers": {
+    "blocks": [
+      "product-summary.shelf#global__home"
+    ],
+    "children": [
+      "slider-layout#most-sellers"
+    ],
+    "props": {
+      "collection": "145"
+    }
+  },
+  "slider-layout#most-sellers": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 4,
+        "mobile": 4
+      },
+      "autoplay": {
+        "timeout": 2500,
+        "stopOnHover": true
+      },
+      "showPaginationDots": "always",
+      "showNavigationArrows": "never",
+      "fullWidth": false,
+      "blockClass": "home__slider--product"
+    }
   }
 }
