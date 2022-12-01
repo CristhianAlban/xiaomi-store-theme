@@ -1,0 +1,49 @@
+.styledLink--header__menu--item {
+  color    : transparent;
+  font-size: 14px;
+}
+
+.styledLinkContent--header__menu--item{
+  font-size: 13px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  color: #1c1c1c;
+}
+
+
+.styledLinkContent--header__menu--item:hover {
+    color: #ff6900!important
+}
+
+.menuItem--header__menu--item :global(.vtex-menu-2-x-submenuContainer) {
+  visibility: hidden;
+  opacity: 0;
+  height: 80px;
+  transition: visibility 0s,all .5s linear;
+}
+.menuItem--header__menu--item :global(.vtex-menu-2-x-submenuContainer) {
+  width: 100%;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+
+.menuItem--header__menu--item:hover :global(.vtex-menu-2-x-submenuContainer) {
+  visibility: visible;
+  opacity: 1;
+  height: 400px;
+}
+
+
+.menuItem--header__menu--item :global(.vtex-menu-2-x-submenuWrapper) {
+  padding: 80px 0 20px;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  transition: all .4s ease;
+}

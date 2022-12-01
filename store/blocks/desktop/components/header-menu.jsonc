@@ -67,7 +67,7 @@
   },
   "submenu#smartphones": {
     "children": [
-      "list-context.product-list#demo1"
+      "flex-layout.row#header__menu--smartphones"
     ]
   },
   "menu-item#desktop__header--home": {
@@ -88,7 +88,7 @@
   },
   "submenu#home": {
     "children": [
-      "list-context.product-list#demo1"
+      "flex-layout.row#header__menu--home"
     ]
   },
   "menu-item#desktop__header--movility": {
@@ -109,7 +109,7 @@
   },
   "submenu#movility": {
     "children": [
-      "list-context.product-list#demo1"
+      "flex-layout.row#header__menu--movility"
     ]
   },
   "menu-item#desktop__header--fitness": {
@@ -130,7 +130,7 @@
   },
   "submenu#fitness": {
     "children": [
-      "list-context.product-list#demo1"
+      "flex-layout.row#header__menu--fitness"
     ]
   },
   "menu-item#desktop__header--gadgets": {
@@ -151,7 +151,7 @@
   },
   "submenu#gadgets": {
     "children": [
-      "list-context.product-list#demo1"
+      "flex-layout.row#header__menu--gadgets"
     ]
   },
   "menu-item#desktop__header--audio": {
@@ -172,7 +172,7 @@
   },
   "submenu#audio": {
     "children": [
-      "list-context.product-list#demo1"
+      "flex-layout.row#header__menu--audio"
     ]
   },
   "menu-item#desktop__header--all": {

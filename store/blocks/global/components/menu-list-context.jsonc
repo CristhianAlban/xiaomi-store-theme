@@ -1,0 +1,60 @@
+{
+  "list-context.product-list#menu--smartphones": {
+    "blocks": [
+      "product-summary.shelf#global__menu"
+    ],
+    "children": [
+      "slider-layout#menu__item"
+    ],
+    "props": {
+      "collection": "143"
+    }
+  },
+  "slider-layout#menu__item": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 4,
+        "mobile": 4
+      },
+      "infinite": false,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "fullWidth": false,
+      "blockClass": "home__slider--product"
+    }
+  },
+  "list-context.product-list#menu--home": {
+    "blocks": [
+      "product-summary.shelf#global__menu"
+    ],
+    "children": [
+      "slider-layout#menu__item"
+    ],
+    "props": {
+      "collection": "145"
+    }
+  },
+  "list-context.product-list#menu--movility": {
+    "blocks": [
+      "product-summary.shelf#global__menu"
+    ],
+    "children": [
+      "slider-layout#menu__item"
+    ],
+    "props": {
+      "collection": "146"
+    }
+  },
+  "list-context.product-list#menu--gadgets": {
+    "blocks": [
+      "product-summary.shelf#global__menu"
+    ],
+    "children": [
+      "slider-layout#menu__item"
+    ],
+    "props": {
+      "collection": "147"
+    }
+  }
+}
