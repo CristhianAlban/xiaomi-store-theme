@@ -38,7 +38,7 @@
   },
   "flex-layout.col#product-sumary-shelf__price": {
     "children": [
-      "product-list-price",
+      "product-list-price#search__result",
       "product-selling-price#search__result"
     ],
     "props": {
@@ -47,6 +47,11 @@
     }
   },
   "product-selling-price#search__result": {
+    "props": {
+      "blockClass": "search__result"
+    }
+  },
+  "product-list-price#search__result":{
     "props": {
       "blockClass": "search__result"
     }

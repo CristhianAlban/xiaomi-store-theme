@@ -11,3 +11,31 @@
   align-items    : center;
   margin         : 100px auto 0;
 }
+
+.flexRowContent--pdp__info--bullets {
+  display        : flex;
+  justify-content: space-between;
+  align-items    : center;
+  flex-flow      : row wrap;
+  border-top     : 1px solid #b0b0b0;
+  border-bottom  : 1px solid #b0b0b0;
+  padding        : 15px 0;
+  margin         : 0;
+}
+.flexRowContent--pdp__info--totals :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--pdp__info--bullets :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: auto!important;
+}
+.flexRowContent--pdp__info--totals{
+  justify-content: space-between;
+}
+.flexColChild--price-container{
+  display: flex;
+  justify-content: right;
+}
+.flexRow--pdp__info--buttom :global(.vtex-button){
+  background-color: #ff6900;
+    border: none;
+    margin-top: 20px;
+    border-radius: 0!important;
+}

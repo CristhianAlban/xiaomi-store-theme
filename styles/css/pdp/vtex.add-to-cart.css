@@ -1,0 +1,8 @@
+.buttonText {
+  font-size: 0;
+}
+.buttonText::before {
+  content: "Comprar ahora";
+  display: block;
+  font-size: 1rem;
+}

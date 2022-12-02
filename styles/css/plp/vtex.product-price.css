@@ -10,7 +10,7 @@
   padding       : 0;
 }
 
-.listPrice {
+.listPrice--search__result {
   font-size: 10px;
   font-weight: 400;
   font-stretch: normal;
