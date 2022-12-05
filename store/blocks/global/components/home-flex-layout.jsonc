@@ -32,10 +32,10 @@
   "flex-layout.row#section_one-prom--bannerFw": {
     "title": "container prom bannerFw",
     "children": [
-      "image#home__image--prom4"
+      "info-card#global__home--banner-top"
     ],
     "props": {
-      "blockClass": "section_one-prom--row"
+      "blockClass": "section_one-prom--fw"
     }
   },
   "flex-layout.row#home__section--two": {
@@ -145,11 +145,14 @@
     "children": [
       "image#home__image--banner2",
       "image#home__image--banner3"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
   },
   "flex-layout.row#section__three--product-banners-banner-alone": {
     "children": [
-      "image#home__image--banner5"
+      "info-card#global__footer--banner-bottom"
     ],
     "props": {
       "blockClass": "section__three--product-banners-banner-alone"
