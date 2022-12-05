@@ -41,53 +41,97 @@
       "flex-layout.row#pdp__info--price-rating",
       "flex-layout.row#pdp__info--bullets",
       "sku-selector",
-      "flex-layout.row#pdp__info--quantity-price",
+      "flex-layout.row#pdp__info--totals",
       "flex-layout.row#pdp__info--buttom"
     ],
     "props": {
       "width": "40%"
     }
   },
+  "vtex.store-components:product-name": {
+    "props": {
+      "blockClass": "product__info"
+    }
+  },
   "flex-layout.row#pdp__info--price-rating": {
     "children": [
-      "product-selling-price#search__result",
+      "product-selling-price#pdp__info",
       "product-rating-inline"
-    ]
+    ],
+    "props": {
+      "colGap": 7
+    }
+  },
+  "product-selling-price#pdp__info": {
+    "props": {
+      "blockClass": "product__info"
+    }
   },
   "flex-layout.row#pdp__info--bullets": {
     "children": [
       "rich-text#product__info--bullet1",
       "rich-text#product__info--bullet2",
       "rich-text#product__info--bullet3"
-    ]
+    ],
+    "props": {
+      "blockClass": "pdp__info--bullets"
+    }
   },
   "rich-text#product__info--bullet1": {
     "title": "Texto adicional de producto",
     "props": {
-      "text": "bullet 1"
+      "text": "Envío gratis arriba de $400,000",
+      "blockClass": "pdp__info--bullets"
     }
   },
   "rich-text#product__info--bullet2": {
     "title": "Texto adicional de producto",
     "props": {
-      "text": "bullet 2"
+      "text": "Cambios y devoluciones",
+      "blockClass": "pdp__info--bullets"
     }
   },
   "rich-text#product__info--bullet3": {
     "title": "Texto adicional de producto",
     "props": {
-      "text": "bullet 3"
+      "text": "Tiene garantía",
+      "blockClass": "pdp__info--bullets"
     }
   },
-  "flex-layout.row#pdp__info--quantity-price": {
+  "flex-layout.row#pdp__info--totals": {
     "children": [
       "product-quantity",
-      "product-selling-price#search__result"
-    ]
+      "flex-layout.col#price-container"
+    ],
+    "props": {
+      "blockClass": "pdp__info--totals"
+    }
   },
   "flex-layout.row#pdp__info--buttom": {
     "children": [
       "add-to-cart-button"
-    ]
+    ],
+    "props": {
+      "blockClass": "pdp__info--buttom"
+    }
+  },
+  "flex-layout.col#price-container": {
+    "children": [
+      "product-list-price#pdp__info--totals",
+      "product-selling-price#pdp__info--totals"
+    ],
+    "props": {
+      "blockClass": "price-container"
+    }
+  },
+  "product-list-price#pdp__info--totals": {
+    "props": {
+      "blockClass": "pdp__info--totals"
+    }
+  },
+  "product-selling-price#pdp__info--totals": {
+    "props": {
+      "blockClass": "pdp__info--totals"
+    }
   }
 }
