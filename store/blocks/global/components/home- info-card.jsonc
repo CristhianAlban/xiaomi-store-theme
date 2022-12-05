@@ -1,0 +1,24 @@
+{
+  "info-card#global__home--banner-top": {
+    "props": {
+      "id": "info-card-banner-top",
+      "isFullModeStyle": false,
+      "callToActionMode": "none",
+      "imageUrl": "assets/img/home__img-prom4.jpg",
+      "mobileImageUrl": "assets/img/home__mobile-img-prom4.jpg",
+      "imageActionUrl": "/electrodomesticos",
+      "blockClass": "box__banner__home"
+    }
+  },
+  "info-card#global__footer--banner-bottom": {
+    "props": {
+      "id": "info-card-banner-bottom",
+      "isFullModeStyle": false,
+      "callToActionMode": "none",
+      "imageUrl": "assets/img/home__banner5.jpg",
+      "mobileImageUrl": "assets/img/home__mobile-banner5.jpg",
+      "imageActionUrl": "/electrodomesticos",
+      "blockClass": "box__banner__home"
+    }
+  }
+}
