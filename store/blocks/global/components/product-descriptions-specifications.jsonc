@@ -2,11 +2,11 @@
   "flex-layout.row#product__descriptions-specifications": {
     "children": [
       "product-description",
-      "product-specifications",
-      "product-specification-group#table"
+      "product-specifications"/*,
+      "product-specification-group#table"*/
     ]
-  },
-  "product-specification-group#table": {
+  }
+  /*"product-specification-group#table": {
     "children": [
       "flex-layout.row#spec-group"
     ]
@@ -86,5 +86,5 @@
     "props": {
       "message": "{specificationValue}"
     }
-  }
+  }*/
 }
