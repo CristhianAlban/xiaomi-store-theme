@@ -1,0 +1,23 @@
+{
+  "image#pdp__image--banner1": {
+    "title": "Imagen de producto",
+    "props": {
+      "src": "assets/img/pdp__banner1.jpg",
+      "blockClass": "pdp__banner"
+    }
+  },
+  "image#pdp__image--banner2": {
+    "title": "Imagen de producto",
+    "props": {
+      "src": "assets/img/pdp__banner2.jpg",
+      "blockClass": "pdp__banner"
+    }
+  },
+  "image#pdp__image--banner3": {
+    "title": "Imagen de producto",
+    "props": {
+      "src": "assets/img/pdp__banner3.jpg",
+      "blockClass": "pdp__banner"
+    }
+  }
+}

@@ -1,3 +1,4 @@
+.container--product__slider--title,
 .container--slider__title {
   font-size     : 25px;
   font-weight   : 400;
@@ -12,7 +13,8 @@
   padding-bottom: 1.5rem;
 }
 
-
+.container--product__slider--title::after,
+.container--product__slider--title::before,
 .container--slider__title::after,
 .container--slider__title::before {
   content         : " ";
@@ -22,14 +24,14 @@
   height          : 2px;
   margin          : auto;
 }
-
+.wrapper--product__slider--title,
 .wrapper--slider__title {
   width      : max-content;
   white-space: nowrap;
   text-align : center;
   margin     : 0 22px;
 }
-
+.paragraph--product__slider--title,
 .paragraph--slider__title {
   text-align: center;
   margin    : 0 !important;
