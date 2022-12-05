@@ -9,11 +9,6 @@
       "blockClass": "search__result"
     }
   },
-  "product-summary-name": {
-    "props": {
-      "tag": "h3"
-    }
-  },
   "flex-layout.row#product-sumary-shelf__name--price": {
     "children": [
       "product-summary-name#product-sumary-shelf__name--price",
@@ -43,6 +38,7 @@
   },
   "flex-layout.col#product-sumary-shelf__price": {
     "children": [
+      "product-list-price#search__result",
       "product-selling-price#search__result"
     ],
     "props": {
@@ -51,6 +47,11 @@
     }
   },
   "product-selling-price#search__result": {
+    "props": {
+      "blockClass": "search__result"
+    }
+  },
+  "product-list-price#search__result":{
     "props": {
       "blockClass": "search__result"
     }

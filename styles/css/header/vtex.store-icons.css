@@ -1,12 +1,12 @@
 .cartIcon {
-    color  : #fff;
-    display: none;
+  color  : #fff;
+  display: none;
 }
 
 @media only screen and (max-width: 1024px) {
-    .minicartIconContainer :global(.vtex-minicart-2-x-cartIcon) {
-        width  : 20px;
-        height : 20px;
-        display: block !important;
-    }
+  .minicartIconContainer :global(.vtex-minicart-2-x-cartIcon) {
+    width  : 20px;
+    height : 20px;
+    display: block !important;
+  }
 }

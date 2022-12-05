@@ -11,8 +11,8 @@
       "blockClass": "desktop__search-results"
     }
   },
-  "flex-layout.row#desktop__sugestion-search":{
-    "children":[
+  "flex-layout.row#desktop__sugestion-search": {
+    "children": [
       "search-suggestions"
     ],
     "props": {
@@ -31,7 +31,7 @@
       "flex-layout.col#global__order-count"
     ],
     "props": {
-      "blockClass": "breadcrumb__class"
+      "blockClass": "global__breadcrumb--search"
     }
   },
   "flex-layout.col#global__breadcrumb--search": {

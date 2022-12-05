@@ -142,10 +142,15 @@
   },
   "menu#global__footer--social-networks": {
     "children": [
-      "flex-layout.col#global__footer-social-items"
+      "flex-layout.row#global__footer-social-items"
     ],
     "props": {
       "orientation": "vertical"
     }
+  },
+  "flex-layout.row#global__footer-social-items": {
+    "children": [
+      "flex-layout.col#global__footer-social-items"
+    ]
   }
 }

@@ -49,7 +49,110 @@
   },
   "flex-layout.col#section__two--product-slider": {
     "children": [
+      "flex-layout.row#section__two--product-slider1-title",
+      "flex-layout.row#section__two--product-slider1-content",
+      "flex-layout.row#section__two--product-slider2-title",
+      "flex-layout.row#section__two--product-slider2-content"
+    ]
+  },
+  "flex-layout.row#section__two--product-slider1-title": {
+    "children": [
+      "rich-text#slider1-title"
+    ],
+    "props": {
+      "paddingTop": 4,
+      "blockClass": "section__two--product-slider1-title"
+    }
+  },
+  "flex-layout.row#section__two--product-slider1-content": {
+    "children": [
+      "list-context.product-list#most-sellers"
+    ],
+    "props": {
+      "paddingBottom": 9
+    }
+  },
+  "flex-layout.row#section__two--product-slider2-title": {
+    "children": [
+      "rich-text#slider2-title"
+    ]
+  },
+  "flex-layout.row#section__two--product-slider2-content": {
+    "children": [
       "list-context.product-list#demo1"
     ]
+  },
+  "rich-text#slider1-title": {
+    "props": {
+      "text": "PRODUCTOS MÁS VENDIDOS",
+      "blockClass": "slider__title"
+    }
+  },
+  "rich-text#slider2-title": {
+    "props": {
+      "text": "RECOMENDADOS PARA TI",
+      "blockClass": "slider__title"
+    }
+  },
+  "flex-layout.row#home__section--three": {
+    "title": "Section three",
+    "children": [
+      "flex-layout.col#section__three--product-banners"
+    ],
+    "props": {
+      "blockClass": "home__section--three"
+    }
+  },
+  "flex-layout.col#section__three--product-banners": {
+    "children": [
+      "flex-layout.row#section__three--product-banners-title",
+      "flex-layout.row#section__three--product-banners-banners-group",
+      "flex-layout.row#section__three--product-banners-banner-alone"
+    ]
+  },
+  "flex-layout.row#section__three--product-banners-title": {
+    "children": [
+      "rich-text#banners-title"
+    ]
+  },
+  "rich-text#banners-title": {
+    "props": {
+      "text": "PRODUCTOS ESTRELLA",
+      "blockClass": "slider__title"
+    }
+  },
+  "flex-layout.row#section__three--product-banners-banners-group": {
+    "children": [
+      "flex-layout.col#banner--group-l",
+      "flex-layout.col#banner--group-r"
+    ],
+    "props": {
+      "blockClass": "section__three--product-banners-banners-group"
+    }
+  },
+  "flex-layout.col#banner--group-l": {
+    "children": [
+      "image#home__image--banner1"
+    ]
+  },
+  "flex-layout.col#banner--group-r": {
+    "children": [
+      "flex-layout.row#banner-subgroup",
+      "image#home__image--banner4"
+    ]
+  },
+  "flex-layout.row#banner-subgroup": {
+    "children": [
+      "image#home__image--banner2",
+      "image#home__image--banner3"
+    ]
+  },
+  "flex-layout.row#section__three--product-banners-banner-alone": {
+    "children": [
+      "image#home__image--banner5"
+    ],
+    "props": {
+      "blockClass": "section__three--product-banners-banner-alone"
+    }
   }
 }
