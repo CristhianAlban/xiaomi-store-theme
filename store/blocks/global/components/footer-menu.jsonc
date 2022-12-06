@@ -17,8 +17,8 @@
       "id": "warranty",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "https://www.google.com/",
+        "type": "internal",
+        "href": "/sobre-nosotros",
         "tagTitle": "warranty title",
         "text": "Garantías"
       },
@@ -30,8 +30,8 @@
       "id": "shipments",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "https://www.google.com/",
+        "type": "internal",
+        "href": "/sobre-nosotros",
         "tagTitle": "shipments title",
         "text": "F.A.Q. Envíos"
       },
@@ -43,8 +43,8 @@
       "id": "billing",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "https://www.google.com/",
+        "type": "internal",
+        "href": "/sobre-nosotros",
         "tagTitle": "billing title",
         "text": "Facturación"
       },
@@ -56,8 +56,8 @@
       "id": "return-policys",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "https://www.google.com/",
+        "type": "internal",
+        "href": "/sobre-nosotros",
         "tagTitle": "return-policy title",
         "text": "Politicas de Devolución"
       },
@@ -69,8 +69,8 @@
       "id": "promotions",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "https://www.google.com/",
+        "type": "internal",
+        "href": "/sobre-nosotros",
         "tagTitle": "promotions title",
         "text": "Promociones"
       },
@@ -93,8 +93,8 @@
       "id": "tekmovil",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "https://www.google.com/",
+        "type": "internal",
+        "href": "/sobre-nosotros",
         "tagTitle": "tekmovil title",
         "text": "Tekmovil"
       },
@@ -106,8 +106,8 @@
       "id": "notice-of-privacy",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "https://www.google.com/",
+        "type": "internal",
+        "href": "/sobre-nosotros",
         "tagTitle": "notice of privacy title",
         "text": "Aviso de privacidad"
       },
@@ -119,8 +119,8 @@
       "id": "terms-and-conditions",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "https://www.google.com/",
+        "type": "internal",
+        "href": "/sobre-nosotros",
         "tagTitle": "terms and conditions title",
         "text": "Terminos y condiciones"
       },
@@ -132,8 +132,8 @@
       "id": "industry-and-commerce-superintendency",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "https://www.google.com/",
+        "type": "internal",
+        "href": "/sobre-nosotros",
         "tagTitle": "industry and commerce superintendency title",
         "text": "Superintendencia de industria y comercio"
       },
