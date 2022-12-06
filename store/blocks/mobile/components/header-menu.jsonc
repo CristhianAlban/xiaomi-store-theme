@@ -1,0 +1,160 @@
+{
+  "drawer#header__mobile--menu": {
+    "children": [
+      "menu#mobile__header--menu"
+    ]
+  },
+  "menu#mobile__header--menu": {
+    "children": [
+      "menu-item#mobile__header--smartphones",
+      "menu-item#mobile__header--home",
+      "menu-item#mobile__header--movility",
+      "menu-item#mobile__header--fitness",
+      "menu-item#mobile__header--gadgets",
+      "menu-item#mobile__header--audio",
+      "menu-item#mobile__header--all"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile__header--smartphones": {
+    "props": {
+      "id": "smartphones",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "tagTitle": "smartphones title",
+        "text": "Smartphones"
+      },
+      "blockClass": "header__menu--item"
+    },
+    "blocks": [
+      "submenu.accordion#smartphones"
+    ]
+  },
+  "submenu.accordion#smartphones": {
+    "children": [
+      "list-context.product-list#menu--smartphones"
+    ]
+  },
+  "menu-item#mobile__header--home": {
+    "props": {
+      "id": "home",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "tagTitle": "home title",
+        "text": "Hogar Conectado"
+      },
+      "blockClass": "header__menu--item"
+    },
+    "blocks": [
+      "submenu.accordion#home"
+    ]
+  },
+  "submenu.accordion#home": {
+    "children": [
+      "list-context.product-list#menu--home"
+    ]
+  },
+  "menu-item#mobile__header--movility": {
+    "props": {
+      "id": "movility",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "tagTitle": "movility title",
+        "text": "Movilidad"
+      },
+      "blockClass": "header__menu--item"
+    },
+    "blocks": [
+      "submenu.accordion#movility"
+    ]
+  },
+  "submenu.accordion#movility": {
+    "children": [
+      "list-context.product-list#menu--movility"
+    ]
+  },
+  "menu-item#mobile__header--fitness": {
+    "props": {
+      "id": "fitness",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "tagTitle": "fitness title",
+        "text": "Fitness & Estilo de vida"
+      },
+      "blockClass": "header__menu--item"
+    },
+    "blocks": [
+      "submenu.accordion#fitness"
+    ]
+  },
+  "submenu.accordion#fitness": {
+    "children": [
+      "list-context.product-list#menu--smartphones"
+    ]
+  },
+  "menu-item#mobile__header--gadgets": {
+    "props": {
+      "id": "gadgets",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "tagTitle": "gadgets title",
+        "text": "Gadgets & Juguetes"
+      },
+      "blockClass": "header__menu--item"
+    },
+    "blocks": [
+      "submenu.accordion#gadgets"
+    ]
+  },
+  "submenu.accordion#gadgets": {
+    "children": [
+      "list-context.product-list#menu--gadgets"
+    ]
+  },
+  "menu-item#mobile__header--audio": {
+    "props": {
+      "id": "audio",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "tagTitle": "audio title",
+        "text": "Audio"
+      },
+      "blockClass": "header__menu--item"
+    },
+    "blocks": [
+      "submenu.accordion#audio"
+    ]
+  },
+  "submenu.accordion#audio": {
+    "children": [
+      "list-context.product-list#menu--smartphones"
+    ]
+  },
+  "menu-item#mobile__header--all": {
+    "props": {
+      "id": "all",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "tagTitle": "all title",
+        "text": "Ver Todo"
+      },
+      "blockClass": "header__menu--item"
+    }
+  }
+}
