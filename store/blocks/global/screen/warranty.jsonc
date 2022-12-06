@@ -1,0 +1,59 @@
+{
+  "store.custom#warranty": {
+    "blocks": [
+      "flex-layout.row#warranty"
+    ]
+  },
+  "flex-layout.row#warranty": {
+    "title": "Cuerpo de pagina",
+    "children": [
+      "flex-layout.col#text-warranty"
+    ],
+    "props": {
+      "blockClass": "warranty"
+    }
+  },
+  "flex-layout.col#text-warranty": {
+    "children": [
+      "rich-text#warranty__title",
+      "rich-text#warranty__title2",
+      "rich-text#warranty__subtitle",
+      "rich-text#warranty__text1",
+      "rich-text#custom_page"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#warranty__title": {
+    "props": {
+      "blockClass": "custom__page--title",
+      "text": "### PERIODO DE GARANTÍA"
+    }
+  },
+  "rich-text#warranty__title2": {
+    "props": {
+      "text": "#### PERIODO DE GARANTÍA",
+      "blockClass":"warranty__title2"
+    }
+  },
+  "rich-text#warranty__subtitle": {
+    "props": {
+      "text": "CÓMO HACER VÁLIDA MI GARANTÍA",
+      "blockClass":"warranty__subtitle"
+    }
+  },
+  "rich-text#warranty__text1":{
+    "props":{
+      "text": "Todos los productos que compras en la [Tienda de Xiaomi Colombia](/) tienen un periodo de garantía por defectos de fábrica, directamente con el fabricante a partir de la fecha de compra.",
+      "blockClass":"warranty__text1"
+    }
+  },
+  "rich-text#custom_page": {
+    "title": "pega aqui tu md",
+    "props": {
+      "blockClass": "custom__page",
+      "text": " "
+    }
+  }
+}
