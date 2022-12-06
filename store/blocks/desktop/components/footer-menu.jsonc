@@ -1,5 +1,6 @@
 {
   "flex-layout.row#desktop__footer--menu-info": {
+    "title": "contenedor menu",
     "children": [
       "flex-layout.col#desktop__footer--menu-info"
     ],
@@ -8,6 +9,7 @@
     }
   },
   "flex-layout.col#desktop__footer--menu-info": {
+    "title": "contenedor menu",
     "children": [
       "flex-layout.row#desktop__footer--menu-info-content",
       "rich-text#global__footer--rights"
@@ -17,6 +19,7 @@
     }
   },
   "flex-layout.row#desktop__footer--menu-info-content": {
+    "title": "contenedor menu",
     "children": [
       "flex-layout.col#desktop__footer--menu-support",
       "flex-layout.col#desktop__footer--menu-about-us",
@@ -30,6 +33,7 @@
     }
   },
   "flex-layout.col#desktop__footer--menu-support": {
+    "title": "columna 1",
     "children": [
       "rich-text#menu__title--support",
       "menu#global__footer--support"
@@ -40,6 +44,7 @@
     }
   },
   "flex-layout.col#desktop__footer--menu-about-us": {
+    "title": "columna 2",
     "children": [
       "rich-text#menu__title--about-us",
       "menu#global__footer--about-us"
@@ -50,6 +55,7 @@
     }
   },
   "flex-layout.col#desktop__footer--menu-social-networks": {
+    "title": "columna 3",
     "children": [
       "rich-text#menu__title--social-networks",
       "menu#global__footer--social-networks"
@@ -60,6 +66,7 @@
     }
   },
   "flex-layout.col#desktop__footer--menu-grow": {
+    "title": "columna grow",
     "children": [],
     "props": {
       "width": "grow"

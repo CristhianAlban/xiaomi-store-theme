@@ -1,5 +1,6 @@
 {
   "flex-layout.col#global__footer--menu-info": {
+    "title": "columna 4",
     "children": [
       "flex-layout.row#global__footer--contact",
       "flex-layout.row#desktop__footer--pay-method"

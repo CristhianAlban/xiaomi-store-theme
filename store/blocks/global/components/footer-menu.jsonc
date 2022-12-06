@@ -18,7 +18,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/sobre-nosotros",
+        "href": "/garantias",
         "tagTitle": "warranty title",
         "text": "Garantías"
       },
@@ -31,7 +31,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/sobre-nosotros",
+        "href": "/garantias",
         "tagTitle": "shipments title",
         "text": "F.A.Q. Envíos"
       },
@@ -44,7 +44,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/sobre-nosotros",
+        "href": "/garantias",
         "tagTitle": "billing title",
         "text": "Facturación"
       },
@@ -57,7 +57,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/sobre-nosotros",
+        "href": "/garantias",
         "tagTitle": "return-policy title",
         "text": "Politicas de Devolución"
       },
@@ -70,7 +70,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/sobre-nosotros",
+        "href": "/garantias",
         "tagTitle": "promotions title",
         "text": "Promociones"
       },
@@ -94,7 +94,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/sobre-nosotros",
+        "href": "/garantias",
         "tagTitle": "tekmovil title",
         "text": "Tekmovil"
       },
@@ -107,7 +107,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/sobre-nosotros",
+        "href": "/garantias",
         "tagTitle": "notice of privacy title",
         "text": "Aviso de privacidad"
       },
@@ -120,7 +120,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/sobre-nosotros",
+        "href": "/garantias",
         "tagTitle": "terms and conditions title",
         "text": "Terminos y condiciones"
       },
@@ -133,7 +133,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/sobre-nosotros",
+        "href": "/garantias",
         "tagTitle": "industry and commerce superintendency title",
         "text": "Superintendencia de industria y comercio"
       },
