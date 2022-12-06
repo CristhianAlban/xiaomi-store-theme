@@ -56,7 +56,10 @@
       "flex-layout.col#minicart__col--image",
       "flex-layout.col#minicart__col--info",
       "flex-layout.col#minicart__col--remove"
-    ]
+    ],
+    "props": {
+      "preventHorizontalStretch": true
+    }
   },
   "flex-layout.col#minicart__col--image": {
     "children": [
@@ -89,6 +92,9 @@
     "children": [
       "minicart-summary",
       "minicart-checkout-button"
-    ]
+    ],
+    "props":{
+      "blockClass":"minicart__footer"
+    }
   }
 }

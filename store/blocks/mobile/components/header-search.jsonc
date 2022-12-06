@@ -2,6 +2,28 @@
   "drawer#header__mobile--search": {
     "children": [
       "search-bar#header__search"
+    ],
+    "blocks": ["drawer-trigger#header__mobile--search"]
+  },
+
+  "drawer-trigger#header__mobile--search": {
+    "children": ["menu#header__mobile--search"]
+  },
+  "menu#header__mobile--search": {
+    "children": [
+      "menu-item#header__mobile--search"
     ]
+  },
+  "menu-item#header__mobile--search": {
+    "props": {
+      "id": "search",
+      "type": "custom",
+      "iconProps": {
+        "id": "hpa-search",
+        "size": 16
+      }
+    }
   }
 }
+
+
