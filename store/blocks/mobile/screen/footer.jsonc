@@ -25,13 +25,31 @@
   "flex-layout.row#mobile__footer--menu": {
     "children": [
       "menu#mobile__footer--menu"
-    ]
+    ],
+    "props": {
+      "paddingBottom": 4,
+      "paddingTop": 4,
+      "blockClass": "mobile__footer--menu"
+    }
   },
   "flex-layout.row#mobile__footer--info": {
     "children": [
-      "flex-layout.col#global__footer--menu-info"
+      "flex-layout.col#mobile__footer--info"
     ],
     "props": {
+      "blockClass": "mobile__footer--info",
+      "paddingBottom": 4,
+      "paddingTop": 4
+    }
+  },
+  "flex-layout.col#mobile__footer--info": {
+    "children": [
+      "flex-layout.row#global__footer--contact",
+      "flex-layout.row#mobile__footer--pay-method",
+      "rich-text#global__footer--rights"
+    ],
+    "props": {
+      "rowGap": 4,
       "blockClass": "mobile__footer--info"
     }
   }

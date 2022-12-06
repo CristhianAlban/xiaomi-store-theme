@@ -2,8 +2,7 @@
   "newsletter-form#global__footer": {
     "children": [
       "newsletter-input-email",
-      "newsletter-submit",
-      "icon#global__newsletter--submit"
+      "newsletter-submit"
     ],
     "props": {
       "blockClass": "global__newslatter--footer"
@@ -20,11 +19,6 @@
     "props": {
       "blockClass": "global__newslatter--footer",
       "submitButtonLabel": ">"
-    }
-  },
-  "icon#global__newsletter--submit": {
-    "props": {
-      "id": "arrow-submit-form"
     }
   }
 }

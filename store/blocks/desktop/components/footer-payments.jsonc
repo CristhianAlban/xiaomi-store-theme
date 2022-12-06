@@ -1,0 +1,32 @@
+{
+  "flex-layout.row#desktop__footer--pay-method": {
+    "children": [
+      "flex-layout.col#desktop__footer--pay-method"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "footer-payments-top",
+      "paddingTop": 4
+    }
+  },
+  "flex-layout.col#desktop__footer--pay-method": {
+    "children": [
+      "flex-layout.row#global__footer--pay-method-top",
+      "flex-layout.row#desktop__footer--pay-method-bottom"
+    ],
+    "props": {
+      "blockClass": "footer-payments-top"
+    }
+  },
+  "flex-layout.row#desktop__footer--pay-method-bottom": {
+    "children": [
+      "image#footer__image--payments-null",
+      "image#footer__image--payments5",
+      "image#footer__image--payments6"
+    ],
+    "props": {
+      "blockClass": "footer-payments-bottom",
+      "colGap": 3
+    }
+  }
+}
