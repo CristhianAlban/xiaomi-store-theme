@@ -54,7 +54,15 @@
   },
   "flex-layout.row#product__reviews": {
     "children": [
-      "product-reviews"
+      "flex-layout.col#product__reviews"
+    ]
+  },
+  "flex-layout.col#product__reviews" :{
+    "children":[
+      "product-reviews",
+      "product-rating-summary",
+      "product-rating-inline",
+      "questions-and-answers"
     ]
   }
 }
