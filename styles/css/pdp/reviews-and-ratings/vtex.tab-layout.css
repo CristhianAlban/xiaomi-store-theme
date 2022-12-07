@@ -8,3 +8,30 @@
 .contentContainer--tab__content :global(.vtex-reviews-and-ratings-3-x-reviewsHeading){
   display: none
 }
+
+.listContainer--tab__list{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.listItem :global(.vtex-button):hover{
+  background-color: transparent;
+  color: #ffb042;
+}
+.listItem :global(.vtex-button){
+  background-color: transparent;
+  border: none;
+  text-transform: none !important;
+  color: #6B6D76;
+  transition: all .2s ease-in-out;
+}
+.listItemActive :global(.vtex-button){
+  border-bottom: 3px solid;
+  border-radius: 0;
+  border-color: #ff6709;
+  color: #ff6709;
+}
+
+.contentItem--qa{
+  border-top  : 2px solid #e3e3e3;
+}

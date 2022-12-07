@@ -21,6 +21,7 @@
   },
   "rich-text#custom--component": {
     "props": {
+      "blockClass":"custom--component--title",
       "text": "Desarrollado por VTEX"
     }
   },
@@ -117,6 +118,7 @@
       "questions-and-answers"
     ],
     "props": {
+      "blockClass": "qa",
       "tabId": "qa"
     }
   }
