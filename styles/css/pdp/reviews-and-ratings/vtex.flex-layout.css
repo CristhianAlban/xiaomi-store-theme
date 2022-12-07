@@ -1,0 +1,16 @@
+.flexRowContent--product__reviews-and-ratings--rating--summary :global(.vtex-questions-and-answers-0-x-create-question-text),
+.flexRowContent--product__reviews-and-ratings--rating--summary :global(.vtex-questions-and-answers-0-x-questionsList),
+.flexRowContent--product__reviews-and-ratings--rating--summary :global(.vtex-questions-and-answers-0-x-qna-header),
+.flexRowContent--container__qa-buttom :global(.vtex-input),
+.flexRowContent--product__reviews-and-ratings--rating--summary :global(.vtex-reviews-and-ratings-3-x-reviewCommentsContainer),
+.flexRowContent--product__reviews-and-ratings--rating--summary :global(.vtex-reviews-and-ratings-3-x-reviewsOrderBy),
+.flexRowContent--product__reviews-and-ratings--rating--summary :global(.vtex-reviews-and-ratings-3-x-reviewsHeading){
+  display: none;
+}
+
+.flexColChild--product__buttoms-forms :global(.vtex-reviews-and-ratings-3-x-reviewsRating),
+.flexColChild--product__reviews--summary :global(.vtex-reviews-and-ratings-3-x-writeReviewContainer){
+  display: none;
+}
+
+

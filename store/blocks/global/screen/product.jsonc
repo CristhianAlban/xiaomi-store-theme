@@ -34,7 +34,7 @@
       "flex-layout.col#product__slider"
     ],
     "props": {
-      "blockClass":"product__slider"
+      "blockClass": "product__slider"
     }
   },
   "flex-layout.col#product__slider": {
@@ -44,25 +44,14 @@
     ]
   },
   "flex-layout.row#product__slider--title": {
-    "children": ["rich-text#product__slider"]
+    "children": [
+      "rich-text#product__slider"
+    ]
   },
   "rich-text#product__slider": {
     "props": {
       "text": "RECOMENDADOS PARA TI",
       "blockClass": "product__slider--title"
     }
-  },
-  "flex-layout.row#product__reviews": {
-    "children": [
-      "flex-layout.col#product__reviews"
-    ]
-  },
-  "flex-layout.col#product__reviews" :{
-    "children":[
-      "product-reviews",
-      "product-rating-summary",
-      "product-rating-inline",
-      "questions-and-answers"
-    ]
   }
 }

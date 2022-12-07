@@ -1,0 +1,10 @@
+
+.contentContainer--tab__content :global(.vtex-questions-and-answers-0-x-create-question-container),
+.contentContainer--tab__content :global(.vtex-questions-and-answers-0-x-qna-header),
+.contentContainer--tab__content :global(.vtex-input),
+.contentContainer--tab__content :global(.vtex-input),
+.contentContainer--tab__content :global(.vtex-reviews-and-ratings-3-x-writeReviewContainer),
+.contentContainer--tab__content :global(.vtex-reviews-and-ratings-3-x-reviewsRating),
+.contentContainer--tab__content :global(.vtex-reviews-and-ratings-3-x-reviewsHeading){
+  display: none
+}
