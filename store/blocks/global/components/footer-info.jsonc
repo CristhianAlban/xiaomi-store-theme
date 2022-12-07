@@ -1,8 +1,9 @@
 {
   "flex-layout.col#global__footer--menu-info": {
+    "title": "columna 4",
     "children": [
       "flex-layout.row#global__footer--contact",
-      "flex-layout.row#global__footer--pay-method"
+      "flex-layout.row#desktop__footer--pay-method"
     ],
     "props": {
       "preventVerticalStretch": true,
@@ -18,26 +19,15 @@
     "children": [
       "rich-text#footer__contact--phone",
       "rich-text#footer__contact--schedule",
-      "rich-text#footer__contact--mail-to"
+      "rich-text#footer__contact--mail-to",
+      "whatsapp-button"
     ]
   },
-  "flex-layout.row#global__footer--pay-method": {
-    "children": [
-      "flex-layout.col#global__footer--pay-method"
-    ],
+  "whatsapp-button": {
     "props": {
-      "preventHorizontalStretch": true,
-      "blockClass": "footer-payments-top",
-      "paddingTop": 4
-    }
-  },
-  "flex-layout.col#global__footer--pay-method": {
-    "children": [
-      "flex-layout.row#global__footer--pay-method-top",
-      "flex-layout.row#global__footer--pay-method-bottom"
-    ],
-    "props": {
-      "blockClass": "footer-payments-top"
+      "logo": "assets/img/whatsapp-logo.png",
+      "phone": "3165166685",
+      "message": "contactanos"
     }
   },
   "flex-layout.row#global__footer--pay-method-top": {
@@ -48,19 +38,9 @@
       "image#footer__image--payments4"
     ],
     "props": {
+      "preserveLayoutOnMobile": true,
       "blockClass": "footer-payments-top",
       "preventHorizontalStretch": true,
-      "colGap": 3
-    }
-  },
-  "flex-layout.row#global__footer--pay-method-bottom": {
-    "children": [
-      "image#footer__image--payments-null",
-      "image#footer__image--payments5",
-      "image#footer__image--payments6"
-    ],
-    "props": {
-      "blockClass": "footer-payments-bottom",
       "colGap": 3
     }
   },

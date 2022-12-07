@@ -68,7 +68,9 @@
       "login#mobile"
     ],
     "props": {
-      "preserveLayoutOnMobile": true
+      "blockClass": "mobile__header--menu",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
     }
   },
   "login#mobile": {

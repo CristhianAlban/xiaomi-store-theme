@@ -54,8 +54,8 @@
       "id": "smartphones",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "https://www.google.com/",
+        "type": "internal",
+        "href": "/electrodomesticos",
         "tagTitle": "smartphones title",
         "text": "Smartphones"
       },
@@ -75,8 +75,8 @@
       "id": "home",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "https://www.google.com/",
+        "type": "internal",
+        "href": "/electrodomesticos",
         "tagTitle": "home title",
         "text": "Hogar Conectado"
       },
@@ -96,8 +96,8 @@
       "id": "movility",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "https://www.google.com/",
+        "type": "internal",
+        "href": "/electrodomesticos",
         "tagTitle": "movility title",
         "text": "Movilidad"
       },
@@ -117,8 +117,8 @@
       "id": "fitness",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "https://www.google.com/",
+        "type": "internal",
+        "href": "/electrodomesticos",
         "tagTitle": "fitness title",
         "text": "Fitness & Estilo de vida"
       },
@@ -138,8 +138,8 @@
       "id": "gadgets",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "https://www.google.com/",
+        "type": "internal",
+        "href": "/electrodomesticos",
         "tagTitle": "gadgets title",
         "text": "Gadgets & Juguetes"
       },
@@ -159,8 +159,8 @@
       "id": "audio",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "https://www.google.com/",
+        "type": "internal",
+        "href": "/electrodomesticos",
         "tagTitle": "audio title",
         "text": "Audio"
       },
@@ -180,8 +180,8 @@
       "id": "all",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "https://www.google.com/",
+        "type": "internal",
+        "href": "/electrodomesticos",
         "tagTitle": "all title",
         "text": "Ver Todo"
       },

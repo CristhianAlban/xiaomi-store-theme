@@ -1,0 +1,15 @@
+.container {
+  max-width: 100%;
+  padding: 0 !important;
+}
+
+.reviewsOrderBy {
+  display        : flex;
+  justify-content: flex-end !important;
+  border-bottom  : 2px solid #e3e3e3;
+}
+
+
+.reviewsOrderBy :global(.vtex-styleguide-9-x-container){
+  border: none
+}

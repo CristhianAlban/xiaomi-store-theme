@@ -8,8 +8,8 @@
       "preload": true,
       "images": [
         {
-          "image": "assets/img/home__main-slide1.jpg",
-          "mobileImage": "assets/img/home__mobile-slide1.jpg",
+          "image": "assets/img/home__main-slide1.gif",
+          "mobileImage": "assets/img/home__mobile-slide1.gif",
           "description": "Slide1"
         },
         {
@@ -38,6 +38,7 @@
         "mobile": 1
       },
       "infinite": false,
+      "fullWidth": true,
       "showPaginationDots": "never",
       "showNavigationArrows": "desktopOnly",
       "blockClass": "home__slider"
@@ -58,12 +59,12 @@
     "props": {
       "itemsPerPage": {
         "desktop": 4,
-        "tablet": 4,
-        "mobile": 4
+        "tablet": 2,
+        "mobile": 1
       },
       "infinite": false,
       "showPaginationDots": "never",
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "always",
       "fullWidth": false,
       "blockClass": "home__slider--product"
     }
@@ -83,8 +84,8 @@
     "props": {
       "itemsPerPage": {
         "desktop": 4,
-        "tablet": 4,
-        "mobile": 4
+        "tablet": 3,
+        "mobile": 1
       },
       "autoplay": {
         "timeout": 2500,

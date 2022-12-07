@@ -5,8 +5,8 @@
       "src": "assets/img/home__img-prom1.jpg",
       "blockClass": "home__image",
       "link": {
-        "url": "https://www.google.com/",
-        "newTab": true,
+        "url": "/electrodomesticos",
+        "newTab": false,
         "attributeNofollow": true
       }
     }
@@ -17,8 +17,8 @@
       "src": "assets/img/home__img-prom2.jpg",
       "blockClass": "home__image",
       "link": {
-        "url": "https://www.google.com/",
-        "newTab": true,
+        "url": "/electrodomesticos",
+        "newTab": false,
         "attributeNofollow": true
       }
     }
@@ -29,20 +29,8 @@
       "src": "assets/img/home__img-prom3.jpg",
       "blockClass": "home__image",
       "link": {
-        "url": "https://www.google.com/",
-        "newTab": true,
-        "attributeNofollow": true
-      }
-    }
-  },
-  "image#home__image--prom4": {
-    "title": "Imagen de Home",
-    "props": {
-      "src": "assets/img/home__img-prom4.jpg",
-      "blockClass": "home__image",
-      "link": {
-        "url": "https://www.google.com/",
-        "newTab": true,
+        "url": "/electrodomesticos",
+        "newTab": false,
         "attributeNofollow": true
       }
     }
@@ -53,8 +41,8 @@
       "src": "assets/img/home__banner1.jpg",
       "blockClass": "home__banner",
       "link": {
-        "url": "https://www.google.com/",
-        "newTab": true,
+        "url": "/electrodomesticos",
+        "newTab": false,
         "attributeNofollow": true
       }
     }
@@ -65,8 +53,8 @@
       "src": "assets/img/home__banner2.jpg",
       "blockClass": "home__banner",
       "link": {
-        "url": "https://www.google.com/",
-        "newTab": true,
+        "url": "/electrodomesticos",
+        "newTab": false,
         "attributeNofollow": true
       }
     }
@@ -77,8 +65,8 @@
       "src": "assets/img/home__banner3.jpg",
       "blockClass": "home__banner",
       "link": {
-        "url": "https://www.google.com/",
-        "newTab": true,
+        "url": "/electrodomesticos",
+        "newTab": false,
         "attributeNofollow": true
       }
     }
@@ -89,20 +77,8 @@
       "src": "assets/img/home__banner4.jpg",
       "blockClass": "home__banner",
       "link": {
-        "url": "https://www.google.com/",
-        "newTab": true,
-        "attributeNofollow": true
-      }
-    }
-  },
-  "image#home__image--banner5": {
-    "title": "Imagen de Home",
-    "props": {
-      "src": "assets/img/home__banner5.jpg",
-      "blockClass": "home__banner",
-      "link": {
-        "url": "https://www.google.com/",
-        "newTab": true,
+        "url": "/electrodomesticos",
+        "newTab": false,
         "attributeNofollow": true
       }
     }

@@ -1,5 +1,6 @@
 .imageElement--home__slider {
   max-height: none !important;
+  width: auto !important;
   z-index   : -4;
 }
 

@@ -1,23 +1,27 @@
 {
   "rich-text#global__footer--rights": {
+    "title": "derechos",
     "props": {
       "text": "Copyright © 2022 Xiaomi. All Rights Reserved",
       "blockClass": "global__footer--rights"
     }
   },
   "rich-text#menu__title--support": {
+    "title": "titulo menu 1",
     "props": {
       "text": "SOPORTE",
       "blockClass": "footer-menu-title"
     }
   },
   "rich-text#menu__title--about-us": {
+    "title": "titulo menu 2",
     "props": {
       "text": "SOBRE NOSOTROS",
       "blockClass": "footer-menu-title"
     }
   },
   "rich-text#menu__title--social-networks": {
+    "title": "titulo menu 3",
     "props": {
       "text": "SÍGUENOS",
       "blockClass": "footer-menu-title"
