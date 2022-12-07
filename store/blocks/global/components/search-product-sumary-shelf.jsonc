@@ -2,7 +2,7 @@
   "product-summary.shelf#search__result": {
     "children": [
       "product-summary-image#search__result",
-      "product-rating-inline",
+      "product-rating-summary",
       "flex-layout.row#product-sumary-shelf__name--price"
     ],
     "props": {

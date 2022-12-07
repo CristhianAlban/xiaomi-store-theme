@@ -1,0 +1,7 @@
+.summaryTotalReviews::after{
+  content: " Opiniones";
+}
+.summaryTotalReviews,
+.star{
+  color: #ff6709;
+}
