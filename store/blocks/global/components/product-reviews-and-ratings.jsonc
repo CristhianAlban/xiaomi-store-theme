@@ -45,10 +45,18 @@
   "flex-layout.col#product__buttoms-forms": {
     "children": [
       "flex-layout.row#container__qa-buttom",
-      "product-reviews"
+      "flex-layout.row#container__review-buttom"
     ],
     "props":{
       "blockClass": "product__buttoms-forms"
+    }
+  },
+  "flex-layout.row#container__review-buttom":{
+    "children": [
+      "product-reviews"
+    ],
+    "props": {
+      "blockClass": "container__review-buttom"
     }
   },
   "flex-layout.row#container__qa-buttom":{

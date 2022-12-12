@@ -88,3 +88,11 @@
   box-shadow: 0 0 12px rgb(0 0 0 / 15%);
 }
 
+.flexColChild--header__search--mobile {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.flexCol--header__search--mobile {
+  height: auto;
+}
