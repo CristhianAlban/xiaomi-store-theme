@@ -1,13 +1,5 @@
-.flexRow--desktop__footer--newsletter {
-  background-color: #f5f5f5;
-  max-width       : 1450px;
-  width           : 100%;
-  margin          : 0 auto;
-}
 
-.flexCol--desktop__footer--menu-info,
-.flexRowContent--desktop__footer--badges,
-.flexRowContent--desktop__footer--newsletter {
+.flexCol--desktop__footer--menu-info{
   max-width: 1240px;
   margin   : 0 auto;
   padding  : 0;

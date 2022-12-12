@@ -1,5 +1,6 @@
 {
   "flex-layout.row#product__reviews": {
+    "title": "Bloque de reseñas y Q&A ",
     "children": [
       "flex-layout.col#product__reviews"
     ]
@@ -20,6 +21,7 @@
     }
   },
   "rich-text#custom--component": {
+    "title": "Titulo desarrollador",
     "props": {
       "blockClass":"custom--component--title",
       "text": "Desarrollado por VTEX"
@@ -92,6 +94,7 @@
     }
   },
   "tab-list.item#reviews": {
+    "title": "Titulo Reseñas",
     "props": {
       "tabId": "reviews",
       "label": "Opiniones",
@@ -99,6 +102,7 @@
     }
   },
   "tab-list.item#qa": {
+    "title": "Titulo preguntas y respuestas",
     "props": {
       "tabId": "qa",
       "label": "Preguntas"

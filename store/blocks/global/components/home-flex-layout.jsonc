@@ -83,12 +83,14 @@
     ]
   },
   "rich-text#slider1-title": {
+    "title": "Titulo slider 1",
     "props": {
       "text": "PRODUCTOS MÁS VENDIDOS",
       "blockClass": "slider__title"
     }
   },
   "rich-text#slider2-title": {
+    "title": "Titulo slider 2",
     "props": {
       "text": "RECOMENDADOS PARA TI",
       "blockClass": "slider__title"
@@ -116,6 +118,7 @@
     ]
   },
   "rich-text#banners-title": {
+    "title": "titulo banners",
     "props": {
       "text": "PRODUCTOS ESTRELLA",
       "blockClass": "slider__title"

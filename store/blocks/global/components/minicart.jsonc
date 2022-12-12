@@ -25,6 +25,7 @@
     ]
   },
   "rich-text#minicart__empty--text": {
+    "title": "Texto carrito vacio",
     "props": {
       "text": "El carrito está vacio",
       "textAlignment": "CENTER",

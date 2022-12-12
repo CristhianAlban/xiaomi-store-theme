@@ -1,5 +1,6 @@
 {
   "flex-layout.row#desktop__footer--pay-method": {
+    "title": "payments",
     "children": [
       "flex-layout.col#desktop__footer--pay-method"
     ],
