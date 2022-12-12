@@ -82,6 +82,19 @@
   min-width    : 55px;
 }
 
+.portalContainer--searchmobile{
+  display: none;
+}
+
+@media only screen and (max-width: 768px){
+  .searchBarContainer {
+    width: 260px;
+    background-color: transparent;
+    color: #a8a8a8;
+}
+
+}
+
 @media only screen and (max-width: 768px) {
   .logoContainer {
     width          : 120px;
@@ -101,3 +114,5 @@
     max-width: 110px;
   }
 }
+
+

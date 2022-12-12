@@ -14,14 +14,15 @@
     "props": {
       "itemsPerPage": {
         "desktop": 4,
-        "tablet": 4,
-        "mobile": 4
+        "tablet": 2,
+        "mobile": 2
       },
-      "infinite": false,
+      "infinite": true,
+      "centerMode": "disabled",
       "showPaginationDots": "never",
-      "showNavigationArrows": "never",
+      "showNavigationArrows": "mobileOnly",
       "fullWidth": false,
-      "blockClass": "home__slider--product"
+      "blockClass": "menu__slider"
     }
   },
   "list-context.product-list#menu--home": {

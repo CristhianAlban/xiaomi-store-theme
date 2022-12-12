@@ -1,0 +1,10 @@
+@media only screen and (max-width: 768px) {
+    .button__container {
+        margin-bottom: 20px;
+    }
+    .image{
+        height: 40px;
+        width: 40px;
+    }
+
+}

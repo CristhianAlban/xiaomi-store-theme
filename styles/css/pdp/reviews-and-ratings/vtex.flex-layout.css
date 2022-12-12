@@ -19,9 +19,12 @@
 }
 
 .flexRow--product__reviews-and-ratings--rating--summary {
-  position: relative;
+  position  : relative;
   padding   : 25px 0 22px;
   margin    : 0 10px;
   border-top: 1px solid #e3e3e3;
 
+}
+.flexRow--container__review-buttom{
+  margin: 0.75rem;
 }
