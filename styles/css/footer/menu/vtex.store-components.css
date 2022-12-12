@@ -1,0 +1,9 @@
+
+.imageElement--social--logo {
+  max-height: 16px;
+}
+
+.imageElement--payments--logo {
+  width    : auto;
+  max-width: inherit;
+}
