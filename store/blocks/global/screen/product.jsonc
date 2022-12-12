@@ -5,6 +5,7 @@
     ]
   },
   "flex-layout.row#global__pdp--container": {
+    "title": "contenedor",
     "children": [
       "flex-layout.col#global__pdp--container"
     ],
@@ -23,6 +24,7 @@
     ]
   },
   "flex-layout.row#product__banners": {
+    "title": "contenedor banners",
     "children": [
       "image#pdp__image--banner1",
       "image#pdp__image--banner2",
@@ -30,6 +32,7 @@
     ]
   },
   "flex-layout.row#product__slider": {
+    "title": "Slider de recomendados",
     "children": [
       "flex-layout.col#product__slider"
     ],
@@ -49,6 +52,7 @@
     ]
   },
   "rich-text#product__slider": {
+    "title": "titulo slider recomendados",
     "props": {
       "text": "RECOMENDADOS PARA TI",
       "blockClass": "product__slider--title"

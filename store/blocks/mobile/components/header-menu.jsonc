@@ -3,8 +3,8 @@
     "children": [
       "menu#mobile__header--menu"
     ],
-    "props":{
-      "isFullWidth":true
+    "props": {
+      "isFullWidth": true
     }
   },
   "menu#mobile__header--menu": {
@@ -161,7 +161,7 @@
       "blockClass": "header__mobile-menu--item"
     }
   },
-  "flex-layout.row#menu--smartphones-mobile":{
+  "flex-layout.row#menu--smartphones-mobile": {
     "children": [
       "flex-layout.col#menu--smartphones-mobile"
     ],
@@ -169,7 +169,7 @@
       "blockClass": "menu__item--container-mobile"
     }
   },
-  "flex-layout.row#menu--gadgets-mobile":{
+  "flex-layout.row#menu--gadgets-mobile": {
     "children": [
       "flex-layout.col#menu--gadgets-mobile"
     ],
@@ -177,7 +177,7 @@
       "blockClass": "menu__item--container-mobile"
     }
   },
-  "flex-layout.row#menu--movility-mobile":{
+  "flex-layout.row#menu--movility-mobile": {
     "children": [
       "flex-layout.col#menu--movility-mobile"
     ],
@@ -185,7 +185,7 @@
       "blockClass": "menu__item--container-mobile"
     }
   },
-  "flex-layout.row#menu--home-mobile":{
+  "flex-layout.row#menu--home-mobile": {
     "children": [
       "flex-layout.col#menu--home-mobile"
     ],
@@ -193,22 +193,22 @@
       "blockClass": "menu__item--container-mobile"
     }
   },
-  "flex-layout.col#menu--smartphones-mobile":{
+  "flex-layout.col#menu--smartphones-mobile": {
     "children": [
       "list-context.product-list#menu--smartphones"
     ]
   },
-  "flex-layout.col#menu--gadgets-mobile":{
+  "flex-layout.col#menu--gadgets-mobile": {
     "children": [
       "list-context.product-list#menu--gadgets"
     ]
   },
-  "flex-layout.col#menu--movility-mobile":{
+  "flex-layout.col#menu--movility-mobile": {
     "children": [
       "list-context.product-list#menu--movility"
     ]
   },
-  "flex-layout.col#menu--home-mobile":{
+  "flex-layout.col#menu--home-mobile": {
     "children": [
       "list-context.product-list#menu--home"
     ]

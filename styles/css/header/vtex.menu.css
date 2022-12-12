@@ -2,6 +2,7 @@
   color    : transparent;
   font-size: 14px;
 }
+
 .styledLinkContent--header__mobile-menu--item,
 .styledLinkContent--header__menu--item {
   font-size     : 13px;
@@ -12,7 +13,8 @@
   letter-spacing: normal;
   color         : #1c1c1c;
 }
-.styledLinkContent--header__mobile-menu--item{
+
+.styledLinkContent--header__mobile-menu--item {
   font-size: 30px;
 }
 

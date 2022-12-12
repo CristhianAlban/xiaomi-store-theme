@@ -6,7 +6,7 @@
 }
 
 .flexCol--desktop__footer--menu-info,
-.flexRowContent--desktop__footer--badges,
+.flexRowContent--global__footer--badges,
 .flexRowContent--desktop__footer--newsletter {
   max-width: 1240px;
   margin   : 0 auto;

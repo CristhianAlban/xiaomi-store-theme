@@ -43,12 +43,14 @@
     }
   },
   "rich-text#footer__link--instagram": {
+    "title": "instagram",
     "props": {
       "text": "[Xiaomi Colombia](https://www.instagram.com/xiaomistore_co/)",
       "blockClass": "link__social"
     }
   },
   "rich-text#footer__link--facebook": {
+    "title": "facebook",
     "props": {
       "text": "[Xiaomi Colombia](https://www.facebook.com/XiaomiStoreColombia/)",
       "blockClass": "link__social"

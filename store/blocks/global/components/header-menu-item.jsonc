@@ -33,6 +33,7 @@
     }
   },
   "rich-text#menu__item--right": {
+    "title": "link ver más",
     "props": {
       "text": "[Más](/electrodomesticos)",
       "blockClass": "more__menu"

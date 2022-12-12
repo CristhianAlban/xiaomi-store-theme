@@ -1,6 +1,6 @@
 {
   "flex-layout.row#desktop__footer--menu-info": {
-    "title": "contenedor menu",
+    "title": "Menu e Informacion",
     "children": [
       "flex-layout.col#desktop__footer--menu-info"
     ],
@@ -9,7 +9,6 @@
     }
   },
   "flex-layout.col#desktop__footer--menu-info": {
-    "title": "contenedor menu",
     "children": [
       "flex-layout.row#desktop__footer--menu-info-content",
       "rich-text#global__footer--rights"
