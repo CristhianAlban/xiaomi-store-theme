@@ -99,3 +99,6 @@
 .flexCol--header__search--mobile {
   height: auto;
 }
+.flexRow--mobile__header--menu :global(.vtex-store-components-3-x-container){
+  padding: 0!important;
+}

@@ -1,5 +1,8 @@
 {
   "store.custom#warranty": {
     "path": "/garantias"
+  },
+  "store.custom#view-all": {
+    "path": "/ver-todo"
   }
 }

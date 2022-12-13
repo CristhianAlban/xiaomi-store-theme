@@ -35,7 +35,7 @@
   "rich-text#menu__item--right": {
     "title": "link ver más",
     "props": {
-      "text": "[Más](/electrodomesticos)",
+      "text": "[Más](/ver-todo)",
       "blockClass": "more__menu"
     }
   },

@@ -1,32 +1,65 @@
 {
   "store.not-found#product": {
     "blocks": [
+      "flex-layout.row#not-found__product"
+    ]
+  },
+  "store.not-found#page": {
+    "blocks": [
+      "flex-layout.row#not-found__page"
+    ]
+  },
+  "search-not-found-layout":{
+    "children":[
+      "flex-layout.row#not-found__search"
+    ]
+  },
+  "flex-layout.row#not-found__product": {
+    "children": [
+      "flex-layout.col#not-found__product"
+    ]
+  },
+  "flex-layout.row#not-found__page": {
+    "children": [
+      "flex-layout.col#not-found__page"
+    ]
+  },
+  "flex-layout.row#not-found__search": {
+    "children": [
+      "flex-layout.col#not-found__search"
+    ]
+  },
+  "flex-layout.col#not-found__product":{
+    "children": [
+      "image#not-found-product",
       "rich-text#not-found-product"
     ]
+  },
+  "flex-layout.col#not-found__page":{
+    "children": [
+      "image#not-found-page",
+      "rich-text#not-found-page"
+    ]
+  },
+  "flex-layout.col#not-found__search":{
+    "children": [
+      "image#not-found-search",
+      "rich-text#not-found-search"
+    ]
+  },
+  "rich-text#not-found-search":{
+    "props": {
+      "text": "no hay busqueda"
+    }
   },
   "rich-text#not-found-product":{
     "props": {
       "text": "no hay producto"
     }
   },
-  "store.not-found#page": {
-    "blocks": [
-      "rich-text#not-found-page"
-    ]
-  },
   "rich-text#not-found-page":{
     "props": {
       "text": "no hay pagina"
-    }
-  },
-  "search-not-found-layout":{
-    "children":[
-        "rich-text#not-found-search"
-    ]
-  },
-  "rich-text#not-found-search":{
-    "props": {
-      "text": "no hay busqueda"
     }
   }
 }

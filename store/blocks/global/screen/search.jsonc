@@ -10,6 +10,17 @@
       }
     }
   },
+  "store.search#department": {
+    "blocks": [
+      "search-result-layout#global__category"
+    ],
+    "props": {
+      "context": {
+        "skuFilter": "FIRST_AVAIBLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
   "store.search#category": {
     "blocks": [
       "search-result-layout#global__category"
@@ -23,7 +34,7 @@
   },
   "store.search#subcategory": {
     "blocks": [
-      "search-result-layout#global__search-results"
+      "search-result-layout#global__category"
     ],
     "props": {
       "context": {

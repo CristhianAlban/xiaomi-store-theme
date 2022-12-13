@@ -1,0 +1,23 @@
+{
+  "image#not-found-page": {
+    "title": "Imagen pagina no encontrada",
+    "props": {
+      "src": "assets/img/404_xiaomi2.png",
+      "blockClass": "not-found-page"
+    }
+  },
+  "image#not-found-search": {
+    "title": "Imagen busqueda no encontrada",
+    "props": {
+      "src": "assets/img/producto-agotado-xiaomishop-mx.png",
+      "blockClass": "not-found-search"
+    }
+  },
+  "image#not-found-product": {
+    "title": "Imagen producto no encontrado",
+    "props": {
+      "src": "assets/img/producto-agotado-xiaomishop-mx.png",
+      "blockClass": "not-found-product"
+    }
+  }
+}
