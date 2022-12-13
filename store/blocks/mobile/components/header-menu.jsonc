@@ -2,7 +2,10 @@
   "drawer#header__mobile--menu": {
     "children": [
       "menu#mobile__header--menu"
-    ]
+    ],
+    "props": {
+      "isFullWidth": true
+    }
   },
   "menu#mobile__header--menu": {
     "children": [
@@ -15,7 +18,8 @@
       "menu-item#mobile__header--all"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "mobile__header--menu"
     }
   },
   "menu-item#mobile__header--smartphones": {
@@ -28,7 +32,7 @@
         "tagTitle": "smartphones title",
         "text": "Smartphones"
       },
-      "blockClass": "header__menu--item"
+      "blockClass": "header__mobile-menu--item"
     },
     "blocks": [
       "submenu.accordion#smartphones"
@@ -36,7 +40,7 @@
   },
   "submenu.accordion#smartphones": {
     "children": [
-      "list-context.product-list#menu--smartphones"
+      "flex-layout.row#menu--smartphones-mobile"
     ]
   },
   "menu-item#mobile__header--home": {
@@ -49,7 +53,7 @@
         "tagTitle": "home title",
         "text": "Hogar Conectado"
       },
-      "blockClass": "header__menu--item"
+      "blockClass": "header__mobile-menu--item"
     },
     "blocks": [
       "submenu.accordion#home"
@@ -57,7 +61,7 @@
   },
   "submenu.accordion#home": {
     "children": [
-      "list-context.product-list#menu--home"
+      "flex-layout.row#menu--home-mobile"
     ]
   },
   "menu-item#mobile__header--movility": {
@@ -70,7 +74,7 @@
         "tagTitle": "movility title",
         "text": "Movilidad"
       },
-      "blockClass": "header__menu--item"
+      "blockClass": "header__mobile-menu--item"
     },
     "blocks": [
       "submenu.accordion#movility"
@@ -78,7 +82,7 @@
   },
   "submenu.accordion#movility": {
     "children": [
-      "list-context.product-list#menu--movility"
+      "flex-layout.row#menu--movility-mobile"
     ]
   },
   "menu-item#mobile__header--fitness": {
@@ -89,9 +93,9 @@
         "type": "internal",
         "href": "/electrodomesticos",
         "tagTitle": "fitness title",
-        "text": "Fitness & Estilo de vida"
+        "text": "Fitness & Lifestyle"
       },
-      "blockClass": "header__menu--item"
+      "blockClass": "header__mobile-menu--item"
     },
     "blocks": [
       "submenu.accordion#fitness"
@@ -99,7 +103,7 @@
   },
   "submenu.accordion#fitness": {
     "children": [
-      "list-context.product-list#menu--smartphones"
+      "flex-layout.row#menu--smartphones-mobile"
     ]
   },
   "menu-item#mobile__header--gadgets": {
@@ -112,7 +116,7 @@
         "tagTitle": "gadgets title",
         "text": "Gadgets & Juguetes"
       },
-      "blockClass": "header__menu--item"
+      "blockClass": "header__mobile-menu--item"
     },
     "blocks": [
       "submenu.accordion#gadgets"
@@ -120,7 +124,7 @@
   },
   "submenu.accordion#gadgets": {
     "children": [
-      "list-context.product-list#menu--gadgets"
+      "flex-layout.row#menu--gadgets-mobile"
     ]
   },
   "menu-item#mobile__header--audio": {
@@ -133,7 +137,7 @@
         "tagTitle": "audio title",
         "text": "Audio"
       },
-      "blockClass": "header__menu--item"
+      "blockClass": "header__mobile-menu--item"
     },
     "blocks": [
       "submenu.accordion#audio"
@@ -154,7 +158,59 @@
         "tagTitle": "all title",
         "text": "Ver Todo"
       },
-      "blockClass": "header__menu--item"
+      "blockClass": "header__mobile-menu--item"
     }
+  },
+  "flex-layout.row#menu--smartphones-mobile": {
+    "children": [
+      "flex-layout.col#menu--smartphones-mobile"
+    ],
+    "props": {
+      "blockClass": "menu__item--container-mobile"
+    }
+  },
+  "flex-layout.row#menu--gadgets-mobile": {
+    "children": [
+      "flex-layout.col#menu--gadgets-mobile"
+    ],
+    "props": {
+      "blockClass": "menu__item--container-mobile"
+    }
+  },
+  "flex-layout.row#menu--movility-mobile": {
+    "children": [
+      "flex-layout.col#menu--movility-mobile"
+    ],
+    "props": {
+      "blockClass": "menu__item--container-mobile"
+    }
+  },
+  "flex-layout.row#menu--home-mobile": {
+    "children": [
+      "flex-layout.col#menu--home-mobile"
+    ],
+    "props": {
+      "blockClass": "menu__item--container-mobile"
+    }
+  },
+  "flex-layout.col#menu--smartphones-mobile": {
+    "children": [
+      "list-context.product-list#menu--smartphones"
+    ]
+  },
+  "flex-layout.col#menu--gadgets-mobile": {
+    "children": [
+      "list-context.product-list#menu--gadgets"
+    ]
+  },
+  "flex-layout.col#menu--movility-mobile": {
+    "children": [
+      "list-context.product-list#menu--movility"
+    ]
+  },
+  "flex-layout.col#menu--home-mobile": {
+    "children": [
+      "list-context.product-list#menu--home"
+    ]
   }
 }

@@ -1,7 +1,8 @@
 {
   "footer-layout.desktop#desktop__footer--main": {
+    "title": "Footer desktop",
     "children": [
-      "flex-layout.row#desktop__footer--badges",
+      "flex-layout.row#global__footer--badges",
       "flex-layout.row#desktop__footer--newsletter",
       "flex-layout.row#desktop__footer--menu-info"
     ],
@@ -9,17 +10,8 @@
       "blockClass": "desktop__footer--main"
     }
   },
-  "flex-layout.row#desktop__footer--badges": {
-    "children": [
-      "info-card#global__footer--badges-1",
-      "info-card#global__footer--badges-2",
-      "info-card#global__footer--badges-3"
-    ],
-    "props": {
-      "blockClass": "desktop__footer--badges"
-    }
-  },
   "flex-layout.row#desktop__footer--newsletter": {
+    "title": "Newsletter",
     "children": [
       "newsletter-form#global__footer"
     ],

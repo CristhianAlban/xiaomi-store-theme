@@ -1,0 +1,118 @@
+{
+  "store.not-found#product": {
+    "blocks": [
+      "flex-layout.row#not-found__product"
+    ]
+  },
+  "store.not-found#page": {
+    "blocks": [
+      "flex-layout.row#not-found__page"
+    ]
+  },
+  "search-not-found-layout": {
+    "children": [
+      "flex-layout.row#not-found__search"
+    ]
+  },
+  "flex-layout.row#not-found__product": {
+    "children": [
+      "flex-layout.col#not-found__product"
+    ]
+  },
+  "flex-layout.row#not-found__page": {
+    "children": [
+      "flex-layout.col#not-found__page"
+    ]
+  },
+  "flex-layout.row#not-found__search": {
+    "children": [
+      "flex-layout.col#not-found__search"
+    ],
+    "props": {
+      "blockClass": "not-found__search"
+    }
+  },
+  "flex-layout.col#not-found__product": {
+    "children": [
+      "rich-text#not-found-product",
+      "info-card#not-found-product"
+    ]
+  },
+  "flex-layout.col#not-found__page": {
+    "children": [
+      "rich-text#not-found-page",
+      "info-card#not-found-page"
+    ]
+  },
+  "flex-layout.col#not-found__search": {
+    "children": [
+      "breadcrumb.search",
+      "rich-text#not-found-search",
+      "info-card#not-found-search"
+    ]
+  },
+  "rich-text#not-found-search": {
+    "props": {
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "heading-404",
+      "text": "No se ha encontrado ningún producto"
+    }
+  },
+  "rich-text#not-found-product": {
+    "props": {
+      "blockClass": "heading-404",
+      "text": ""
+    }
+  },
+  "rich-text#not-found-page": {
+    "props": {
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "heading-404",
+      "text": "Ups! Página no encontrada."
+    }
+  },
+  "info-card#not-found-page": {
+    "props": {
+      "id": "not-found-page",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/img/404_xiaomi2.png",
+      "headline": "Buscamos por todas partes esta página.",
+      "subhead": "¿Estás seguro de que la URL del sitio web es correcta? \n \n Prueba navegando a la página principal",
+      "callToActionText": "XIAOMI STORE",
+      "callToActionUrl": "/",
+      "blockClass": "info-card__not-found",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#not-found-search": {
+    "props": {
+      "id": "not-found-search",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/img/producto-agotado-xiaomishop-mx.png",
+      "headline": "Buscamos por todas partes estos productos.",
+      "subhead": "-Compruebe los términos introducidos.\n -Intenta utilizar una sola palabra. \n -Utilice términos genéricos en la búsqueda. \n -Busque utilizar sinónimos al término deseado.",
+      "callToActionText": "XIAOMI STORE",
+      "callToActionUrl": "/",
+      "blockClass": "info-card__not-found",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#not-found-product": {
+    "props": {
+      "id": "not-found-product",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/img/producto-agotado-xiaomishop-mx.png",
+      "headline": "",
+      "subhead": "Este producto está agotado pero te invitamos a ver más productos de nuestra tienda.",
+      "callToActionText": "VER MÁS",
+      "callToActionUrl": "/ver-todo",
+      "blockClass": "info-card__not-found",
+      "textAlignment": "center"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.imageElement--home__slider {
+  max-height: none !important;
+  width     : auto !important;
+  z-index   : -4;
+}
+
+.sliderArrows--home__slider {
+  margin: 0 40px;
+}
+
+.caretIcon--home__slider {
+  color         : #fff;
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .2));
+  filter        : drop-shadow(3px 3px 2px rgba(0, 0, 0, .2));
+}

@@ -1,6 +1,6 @@
 {
   "image#home__image--prom1": {
-    "title": "Imagen de Home",
+    "title": "banner1",
     "props": {
       "src": "assets/img/home__img-prom1.jpg",
       "blockClass": "home__image",
@@ -12,7 +12,7 @@
     }
   },
   "image#home__image--prom2": {
-    "title": "Imagen de Home",
+    "title": "banner2",
     "props": {
       "src": "assets/img/home__img-prom2.jpg",
       "blockClass": "home__image",
@@ -24,7 +24,7 @@
     }
   },
   "image#home__image--prom3": {
-    "title": "Imagen de Home",
+    "title": "banner3",
     "props": {
       "src": "assets/img/home__img-prom3.jpg",
       "blockClass": "home__image",
@@ -36,7 +36,7 @@
     }
   },
   "image#home__image--banner1": {
-    "title": "Imagen de Home",
+    "title": "banner1",
     "props": {
       "src": "assets/img/home__banner1.jpg",
       "blockClass": "home__banner",
@@ -48,7 +48,7 @@
     }
   },
   "image#home__image--banner2": {
-    "title": "Imagen de Home",
+    "title": "banner2",
     "props": {
       "src": "assets/img/home__banner2.jpg",
       "blockClass": "home__banner",
@@ -60,7 +60,7 @@
     }
   },
   "image#home__image--banner3": {
-    "title": "Imagen de Home",
+    "title": "banner3",
     "props": {
       "src": "assets/img/home__banner3.jpg",
       "blockClass": "home__banner",
@@ -72,7 +72,7 @@
     }
   },
   "image#home__image--banner4": {
-    "title": "Imagen de Home",
+    "title": "banner4",
     "props": {
       "src": "assets/img/home__banner4.jpg",
       "blockClass": "home__banner",

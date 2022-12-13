@@ -4,8 +4,15 @@
       "flex-layout.row#mobile__search--results"
     ]
   },
+  "search-result-layout.mobile#mobile__category": {
+    "children": [
+      "search-title.v2",
+      "flex-layout.row#mobile__search--results"
+    ]
+  },
   "flex-layout.row#mobile__search--results": {
     "children": [
+      "flex-layout.col#global__order-count",
       "flex-layout.col#search__results--content"
     ]
   }

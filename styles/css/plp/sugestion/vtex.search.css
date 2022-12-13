@@ -1,0 +1,16 @@
+.suggestionsListPrefix {
+  color       : #1c1c1c;
+  font-size   : 1rem;
+  font-weight : 300;
+  margin-right: 5px;
+}
+
+.suggestionsListLink {
+  color      : #1c1c1c !important;
+  font-weight: 500;
+  font-size  : 1rem;
+}
+
+.suggestionsListItem::before {
+  margin: 0 5px !important;
+}

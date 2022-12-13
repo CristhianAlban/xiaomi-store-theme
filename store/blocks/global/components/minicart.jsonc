@@ -25,6 +25,7 @@
     ]
   },
   "rich-text#minicart__empty--text": {
+    "title": "Texto carrito vacio",
     "props": {
       "text": "El carrito está vacio",
       "textAlignment": "CENTER",
@@ -43,7 +44,8 @@
   },
   "product-list#minicart": {
     "blocks": [
-      "product-list-content-desktop"
+      "product-list-content-desktop",
+      "product-list-content-mobile"
     ]
   },
   "product-list-content-desktop": {
@@ -99,7 +101,7 @@
     ],
     "props": {
       "width": "grow",
-      "preventVerticalStretch":true
+      "preventVerticalStretch": true
     }
   },
   "flex-layout.row#minicart__brand--name": {

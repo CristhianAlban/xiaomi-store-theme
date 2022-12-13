@@ -1,0 +1,36 @@
+.nameContainer--global__menu {
+  padding: 5px 0 2px;
+}
+
+.productBrand--global__menu {
+  display           : flex;
+  max-width         : 130px;
+  margin            : 0 auto;
+  justify-content   : center;
+  align-items       : flex-start;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow     : ellipsis;
+  text-align        : center;
+  overflow          : hidden;
+  height            : 38px;
+  line-height       : 1.25;
+  font-size         : 15px;
+  font-weight       : 400;
+  font-stretch      : normal;
+  font-style        : normal;
+  letter-spacing    : normal;
+  color             : #1c1c1c;
+}
+
+.nameWrapper--global__menu {
+  line-height   : 1rem !important;
+  text-align    : center;
+  min-height    : 46px;
+  font-size     : 13px;
+  font-weight   : 700;
+  font-stretch  : normal;
+  font-style    : normal;
+  letter-spacing: normal;
+  color         : #1c1c1c;
+}

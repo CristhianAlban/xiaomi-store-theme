@@ -1,9 +1,9 @@
 {
   "flex-layout.row#product__descriptions-specifications": {
+    "title": "Descripción y especificaciones",
     "children": [
       "product-description",
       "product-specifications"
     ]
   }
-
 }

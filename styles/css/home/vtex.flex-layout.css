@@ -26,14 +26,17 @@
   margin : 0 auto;
   padding: 10px 9px;
 }
-.flexRow--section_one-prom :global( .vtex-store-components-3-x-container) {
-  padding: 0!important;
+
+.flexRow--section_one-prom :global(.vtex-store-components-3-x-container) {
+  padding: 0 !important;
 }
+
 .flexRowContent--section_one-prom--fw {
-  width: 100%;
+  width  : 100%;
   padding: 10px 9px;
 }
-@media (max-width: 768px){
+
+@media (max-width: 768px) {
   .flexRowContent--section_one-prom--row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     margin: 10px 0 5px;
   }

@@ -11,6 +11,19 @@
       "blockClass": "desktop__search-results"
     }
   },
+  "search-result-layout.desktop#desktop__category": {
+    "children": [
+      "flex-layout.row#global__margin--top",
+      "flex-layout.row#global__margin--top",
+      "search-title.v2",
+      "flex-layout.row#global__breadcrumb--search",
+      "flex-layout.row#desktop__search--results"
+    ],
+    "props": {
+      "blockClass": "desktop__search-results"
+    }
+  },
+
   "flex-layout.row#desktop__sugestion-search": {
     "children": [
       "search-suggestions"
@@ -48,6 +61,9 @@
     "children": [
       "total-products.v2",
       "order-by.v2"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
   }
 }

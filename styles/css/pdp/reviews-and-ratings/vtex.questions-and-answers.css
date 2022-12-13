@@ -1,1 +1,18 @@
+.create-question-container {
+    background-color: transparent;
+    padding         : 0;
+    margin          : 0;
+}
 
+.create-question-container :global(.vtex-button) {
+    height          : 50px;
+    width           : 300px;
+    background-color: #ff6900;
+    border          : 1px;
+    border-radius   : 5px;
+    border-color    : #ff6900;
+}
+
+.create-question-container :global(.vtex-button):hover {
+    background-color: #ffb042;
+}

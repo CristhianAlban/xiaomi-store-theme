@@ -1,0 +1,116 @@
+{
+  "flex-layout.row#header__menu--smartphones": {
+    "children": [
+      "flex-layout.col#header__menu--left",
+      "flex-layout.col#header__menu--center",
+      "flex-layout.col#header__menu--right"
+    ],
+    "props": {
+      "blockClass": "menu__item--container"
+    }
+  },
+  "flex-layout.col#header__menu--left": {
+    "children": [],
+    "props": {
+      "width": "50%"
+    }
+  },
+  "flex-layout.col#header__menu--center": {
+    "children": [
+      "list-context.product-list#menu--smartphones"
+    ],
+    "props": {
+      "width": "250%"
+    }
+  },
+  "flex-layout.col#header__menu--right": {
+    "children": [
+      "rich-text#menu__item--right"
+    ],
+    "props": {
+      "width": "50%",
+      "blockClass": "more__menu"
+    }
+  },
+  "rich-text#menu__item--right": {
+    "title": "link ver más",
+    "props": {
+      "text": "[Más](/ver-todo)",
+      "blockClass": "more__menu"
+    }
+  },
+  "flex-layout.row#header__menu--home": {
+    "children": [
+      "flex-layout.col#header__menu--left",
+      "flex-layout.col#header__menu--center-home",
+      "flex-layout.col#header__menu--right"
+    ],
+    "props": {
+      "blockClass": "menu__item--container"
+    }
+  },
+  "flex-layout.col#header__menu--center-home": {
+    "children": [
+      "list-context.product-list#menu--home"
+    ],
+    "props": {
+      "width": "250%"
+    }
+  },
+  "flex-layout.row#header__menu--movility": {
+    "children": [
+      "flex-layout.col#header__menu--left",
+      "flex-layout.col#header__menu--center-movility",
+      "flex-layout.col#header__menu--right"
+    ],
+    "props": {
+      "blockClass": "menu__item--container"
+    }
+  },
+  "flex-layout.col#header__menu--center-movility": {
+    "children": [
+      "list-context.product-list#menu--movility"
+    ],
+    "props": {
+      "width": "250%"
+    }
+  },
+  "flex-layout.row#header__menu--fitness": {
+    "children": [
+      "flex-layout.col#header__menu--left",
+      "flex-layout.col#header__menu--center",
+      "flex-layout.col#header__menu--right"
+    ],
+    "props": {
+      "blockClass": "menu__item--container"
+    }
+  },
+  "flex-layout.row#header__menu--gadgets": {
+    "children": [
+      "flex-layout.col#header__menu--left",
+      "flex-layout.col#header__menu--center-gadgets",
+      "flex-layout.col#header__menu--right"
+    ],
+    "props": {
+      "blockClass": "menu__item--container"
+    }
+  },
+  "flex-layout.col#header__menu--center-gadgets": {
+    "children": [
+      "list-context.product-list#menu--gadgets"
+    ],
+    "props": {
+      "width": "250%"
+    }
+  },
+  "flex-layout.row#header__menu--audio": {
+    "children": [
+      "flex-layout.col#header__menu--left",
+      "flex-layout.col#header__menu--center",
+      "flex-layout.col#header__menu--right"
+    ],
+    "props": {
+      "blockClass": "menu__item--container"
+    }
+  }
+}
