@@ -1,6 +1,6 @@
 {
   "footer-layout.desktop#desktop__footer--main": {
-    "title":"Footer desktop",
+    "title": "Footer desktop",
     "children": [
       "flex-layout.row#global__footer--badges",
       "flex-layout.row#desktop__footer--newsletter",

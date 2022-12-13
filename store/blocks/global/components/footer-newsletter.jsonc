@@ -1,7 +1,7 @@
 {
   "newsletter-form#global__footer": {
     "children": [
-      "newsletter-input-email"//,
+      "newsletter-input-email" //,
       //"newsletter-submit"
     ],
     "props": {
@@ -14,7 +14,7 @@
       "inputLabel": "Recibe 10% de descuento en tu primera compra Entérate antes que nadie de las mejores promociones",
       "placeholderText": "Deja tu mail aquí"
     }
-  }/*,
+  } /*,
   "newsletter-submit": {
     "props": {
       "blockClass": "global__newslatter--footer",

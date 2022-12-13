@@ -1,0 +1,14 @@
+.flexRow--header__middle {
+  background-color: white;
+}
+
+.flexRowContent--header__middle {
+  background-color: #f5f5f5;
+  justify-content : center;
+  align-items     : center;
+  height          : 55px;
+}
+
+.flexRowContent--header__middle :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: auto !important;
+}

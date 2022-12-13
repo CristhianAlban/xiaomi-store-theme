@@ -1,0 +1,15 @@
+.slideChildrenContainer--home__slider--product {
+  padding: 0.75rem;
+}
+
+.sliderLayoutContainer--home__slider--product {
+  padding-left : 10px !important;
+  padding-right: 10px !important;
+}
+
+.paginationDotsContainer--home__slider--product {
+  margin-right: -50%;
+  transform   : translate(-50%, 100%);
+  left        : 50%;
+  padding-top : 0.75rem;
+}

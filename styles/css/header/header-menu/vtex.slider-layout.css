@@ -1,0 +1,10 @@
+.sliderLayoutContainer--menu__slider {
+  padding-left   : 0 !important;
+  padding-right  : 0 !important;
+  justify-content: center;
+}
+
+.slideChildrenContainer--menu__slider {
+  padding-left : 10px !important;
+  padding-right: 10px !important;
+}

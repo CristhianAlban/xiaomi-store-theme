@@ -1,7 +1,8 @@
-.summaryTotalReviews::after{
+.summaryTotalReviews::after {
   content: " Opiniones";
 }
+
 .summaryTotalReviews,
-.star{
+.star {
   color: #ff6709;
 }

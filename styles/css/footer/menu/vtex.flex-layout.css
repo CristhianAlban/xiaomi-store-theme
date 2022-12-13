@@ -1,5 +1,4 @@
-
-.flexCol--desktop__footer--menu-info{
+.flexCol--desktop__footer--menu-info {
   max-width: 1240px;
   margin   : 0 auto;
   padding  : 0;
@@ -44,14 +43,14 @@
 }
 
 .flexRowContent--footer-payments-top {
-  display: flex;
+  display        : flex;
   justify-content: center;
   align-items    : center;
 }
 
 .flexCol--footer-payments-top {
   padding-right: 4px;
-  width: auto;
+  width        : auto;
 }
 
 .flexRow--footer-payments-bottom {
@@ -66,4 +65,3 @@
 .flexCol--mobile__footer--info {
   padding-bottom: 40px;
 }
-

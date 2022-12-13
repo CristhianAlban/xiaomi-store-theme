@@ -1,0 +1,40 @@
+.flexRowContent--desktop__header--top-menu {
+  display        : flex;
+  justify-content: space-between;
+  align-items    : center;
+  height         : 88px;
+  background     : transparent;
+}
+
+.flexRow--menu__item--container {
+  width    : 100%;
+  max-width: 1226px;
+  margin   : 0 auto;
+  display  : flex;
+}
+
+.flexColChild--more__menu {
+  justify-content: center;
+  align-items    : flex-end;
+  display        : flex;
+  padding-bottom : 28px;
+  position       : relative;
+  width          : 60px;
+  margin         : 0 auto;
+}
+
+.flexRowContent--mobile__header--menu {
+  background-color: #fff;
+  border-top      : 1px solid #555;
+  justify-content : space-around;
+  align-items     : center;
+  height          : 50px;
+}
+
+.flexRow--mobile__header--menu :global(.vtex-store-components-3-x-container) {
+  padding: 0 !important;
+}
+
+.flexRow--menu__item--container-mobile {
+  display: contents;
+}

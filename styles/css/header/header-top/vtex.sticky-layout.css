@@ -1,0 +1,3 @@
+.wrapper--mobile__header--top--stuck :global(.vtex-flex-layout-0-x-flexRowContent--header__middle) {
+  box-shadow: 0 4px 5px rgb(0 0 0 / 90%);
+}
