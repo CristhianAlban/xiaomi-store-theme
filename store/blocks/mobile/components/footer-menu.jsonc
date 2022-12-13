@@ -57,7 +57,7 @@
     "props": {
       "id": "Social Networks",
       "type": "custom",
-      "blockClass":"footer__menu-item",
+      "blockClass":"footer__menu-item-mobile-social",
       "itemProps": {
         "tagTitle": "Social Networks title",
         "text": "Síguenos"
@@ -69,7 +69,7 @@
   },
   "submenu.accordion#social-networks": {
     "children": [
-      "menu#global__footer--social-networks"
+      "flex-layout.row#global__footer-social-items"
     ],
     "props":{
       "blockClass": "footer__menu-item"

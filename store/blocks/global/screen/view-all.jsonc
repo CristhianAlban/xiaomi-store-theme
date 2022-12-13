@@ -1,0 +1,20 @@
+{
+  "store.custom#view-all": {
+    "blocks": [
+      "search-result-layout.customQuery#home__search"
+    ]
+  },
+  "search-result-layout.customQuery#home__search": {
+    "props": {
+      "querySchema": {
+        "skuFilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#desktop__search-results",
+      "search-result-layout.mobile#mobile__search-results",
+      "search-not-found-layout"
+    ]
+  }
+}

@@ -181,7 +181,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/electrodomesticos",
+        "href": "/ver-todo",
         "tagTitle": "all title",
         "text": "Ver Todo"
       },

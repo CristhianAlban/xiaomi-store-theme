@@ -6,6 +6,13 @@
       "search-not-found-layout"
     ]
   },
+  "search-result-layout#global__category": {
+    "blocks": [
+      "search-result-layout.desktop#desktop__category",
+      "search-result-layout.mobile#mobile__category",
+      "search-not-found-layout"
+    ]
+  },
   "flex-layout.col#search__results--content": {
     "children": [
       "search-content#results__content--products"
