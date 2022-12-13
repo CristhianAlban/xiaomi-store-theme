@@ -1,0 +1,30 @@
+.container--more__menu {
+  text-align     : center;
+  align-items    : center;
+  justify-content: flex-end;
+  flex-flow      : column nowrap;
+}
+
+.link--more__menu {
+  font-size      : 15px;
+  font-weight    : 400;
+  font-stretch   : normal;
+  font-style     : normal;
+  line-height    : 1.33;
+  letter-spacing : normal;
+  text-align     : left;
+  color          : #1c1c1c;
+  text-decoration: none;
+}
+
+.link--more__menu::before {
+  content          : "";
+  background-image : url(assets/img/menu-more-flecha.png);
+  background-repeat: no-repeat;
+  background-size  : 98%;
+  top              : calc(40% - 40px);
+  left             : 0;
+  width            : 50px;
+  height           : 50px;
+  position         : absolute;
+}

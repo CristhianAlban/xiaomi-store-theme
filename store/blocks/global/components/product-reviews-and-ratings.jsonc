@@ -23,7 +23,7 @@
   "rich-text#custom--component": {
     "title": "Titulo desarrollador",
     "props": {
-      "blockClass":"custom--component--title",
+      "blockClass": "custom--component--title",
       "text": "Desarrollado por VTEX"
     }
   },
@@ -49,11 +49,11 @@
       "flex-layout.row#container__qa-buttom",
       "flex-layout.row#container__review-buttom"
     ],
-    "props":{
+    "props": {
       "blockClass": "product__buttoms-forms"
     }
   },
-  "flex-layout.row#container__review-buttom":{
+  "flex-layout.row#container__review-buttom": {
     "children": [
       "product-reviews"
     ],
@@ -61,7 +61,7 @@
       "blockClass": "container__review-buttom"
     }
   },
-  "flex-layout.row#container__qa-buttom":{
+  "flex-layout.row#container__qa-buttom": {
     "children": [
       "questions-and-answers"
     ],

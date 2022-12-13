@@ -16,9 +16,11 @@
 .styledLinkContent--menu__item {
   justify-content: start;
 }
-.menuItem--footer__menu-item{
+
+.menuItem--footer__menu-item {
   border-bottom: 1px solid #616161;
 }
+
 .styledLinkContainer--footer__menu-item-mobile-social,
 .styledLinkContainer--footer__menu-item {
   padding: 20px 0;
@@ -27,18 +29,20 @@
 .styledLinkContent--footer__menu-item {
   justify-content: space-between;
 }
+
 .styledLinkContent--footer__menu-item-mobile-social,
 .styledLinkContent--footer__menu-item {
-  font-size: 13px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.35;
+  font-size     : 13px;
+  font-weight   : 300;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.35;
   letter-spacing: normal;
-  text-align: left;
-  color: #a8a8a8;
+  text-align    : left;
+  color         : #a8a8a8;
 }
+
 .submenuAccordion--footer__menu-item {
-  padding: 0 30px;
+  padding      : 0 30px;
   margin-bottom: 30px;
 }

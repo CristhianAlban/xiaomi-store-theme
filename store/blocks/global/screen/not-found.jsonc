@@ -53,8 +53,8 @@
   },
   "rich-text#not-found-search": {
     "props": {
-      "textPosition":"CENTER",
-      "textAlignment":"CENTER",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
       "blockClass": "heading-404",
       "text": "No se ha encontrado ningún producto"
     }
@@ -67,8 +67,8 @@
   },
   "rich-text#not-found-page": {
     "props": {
-      "textPosition":"CENTER",
-      "textAlignment":"CENTER",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
       "blockClass": "heading-404",
       "text": "Ups! Página no encontrada."
     }
@@ -101,7 +101,7 @@
       "textAlignment": "center"
     }
   },
-  "info-card#not-found-product":{
+  "info-card#not-found-product": {
     "props": {
       "id": "not-found-product",
       "isFullModeStyle": false,

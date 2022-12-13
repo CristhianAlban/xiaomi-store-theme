@@ -13,7 +13,7 @@
     "props": {
       "id": "support",
       "type": "custom",
-      "blockClass":"footer__menu-item",
+      "blockClass": "footer__menu-item",
       "itemProps": {
         "tagTitle": "Support title",
         "text": "Soporte"
@@ -27,7 +27,7 @@
     "children": [
       "menu#global__footer--support"
     ],
-    "props":{
+    "props": {
       "blockClass": "footer__menu-item"
     }
   },
@@ -35,7 +35,7 @@
     "props": {
       "id": "About us",
       "type": "custom",
-      "blockClass":"footer__menu-item",
+      "blockClass": "footer__menu-item",
       "itemProps": {
         "tagTitle": "About us title",
         "text": "Sobre Nosotros"
@@ -49,7 +49,7 @@
     "children": [
       "menu#global__footer--about-us"
     ],
-    "props":{
+    "props": {
       "blockClass": "footer__menu-item"
     }
   },
@@ -57,7 +57,7 @@
     "props": {
       "id": "Social Networks",
       "type": "custom",
-      "blockClass":"footer__menu-item-mobile-social",
+      "blockClass": "footer__menu-item-mobile-social",
       "itemProps": {
         "tagTitle": "Social Networks title",
         "text": "Síguenos"
@@ -71,7 +71,7 @@
     "children": [
       "flex-layout.row#global__footer-social-items"
     ],
-    "props":{
+    "props": {
       "blockClass": "footer__menu-item"
     }
   }

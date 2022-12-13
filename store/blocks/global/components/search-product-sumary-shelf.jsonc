@@ -51,7 +51,7 @@
       "blockClass": "search__result"
     }
   },
-  "product-list-price#search__result":{
+  "product-list-price#search__result": {
     "props": {
       "blockClass": "search__result"
     }

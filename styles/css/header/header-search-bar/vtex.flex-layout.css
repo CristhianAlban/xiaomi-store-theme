@@ -1,0 +1,9 @@
+.flexColChild--header__search--mobile {
+  justify-content: center;
+  align-items    : center;
+  display        : flex;
+}
+
+.flexCol--header__search--mobile {
+  height: auto;
+}
