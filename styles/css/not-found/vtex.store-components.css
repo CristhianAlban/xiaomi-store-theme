@@ -1,0 +1,16 @@
+
+.infoCardContainer--info-card__not-found {
+    display: flex;
+    justify-content: center;
+    flex-flow: column-reverse nowrap;
+    padding-bottom: 45px;
+}
+
+
+.infoCardSubhead--info-card__not-found {
+    white-space: break-spaces;
+    margin-top: 5px;
+}
+.infoCardTextContainer--info-card__not-found {
+    width: 100%;
+}
