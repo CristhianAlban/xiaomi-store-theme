@@ -1,0 +1,32 @@
+{
+  "store.not-found#product": {
+    "blocks": [
+      "rich-text#not-found-product"
+    ]
+  },
+  "rich-text#not-found-product":{
+    "props": {
+      "text": "no hay producto"
+    }
+  },
+  "store.not-found#page": {
+    "blocks": [
+      "rich-text#not-found-page"
+    ]
+  },
+  "rich-text#not-found-page":{
+    "props": {
+      "text": "no hay pagina"
+    }
+  },
+  "search-not-found-layout":{
+    "children":[
+        "rich-text#not-found-search"
+    ]
+  },
+  "rich-text#not-found-search":{
+    "props": {
+      "text": "no hay busqueda"
+    }
+  }
+}
