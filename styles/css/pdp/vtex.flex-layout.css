@@ -15,3 +15,10 @@
 .flexRow--product__slider {
   margin-bottom: 100px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .flexRow--product__breadcrumb {
+    margin-top: 0;
+    height    : 0;
+  }
+}
