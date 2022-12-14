@@ -49,3 +49,9 @@
 .orderByOptionItem--selected {
   background-color: #e3e4e6;
 }
+
+@media (max-width: 1024px) {
+  .totalProducts--layout {
+    text-align: left;
+  }
+}
