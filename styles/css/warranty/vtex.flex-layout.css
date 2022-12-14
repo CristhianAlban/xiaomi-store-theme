@@ -1,3 +1,7 @@
 .flexRowContent--warranty {
   margin-top: 100px;
 }
+
+.flexRow--warranty :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}

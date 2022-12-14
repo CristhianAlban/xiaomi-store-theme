@@ -13,6 +13,11 @@
       "search-not-found-layout"
     ]
   },
+  "flex-layout.row#global__search--results": {
+    "children": [
+      "flex-layout.col#search__results--content"
+    ]
+  },
   "flex-layout.col#search__results--content": {
     "children": [
       "search-content#results__content--products"
@@ -41,6 +46,35 @@
         }
       ],
       "GeneralGrid": "product-summary.shelf#search__result"
+    }
+  },
+  "flex-layout.row#global__breadcrumb--search": {
+    "title": "Miga de pan",
+    "children": [
+      "flex-layout.col#global__breadcrumb--search",
+      "flex-layout.col#global__order-count"
+    ],
+    "props": {
+      "blockClass": "global__breadcrumb--search"
+    }
+  },
+  "flex-layout.col#global__breadcrumb--search": {
+    "children": [
+      "breadcrumb.search"
+    ]
+  },
+  "flex-layout.col#global__order-count": {
+    "children": [
+      "flex-layout.row#global__order-count"
+    ]
+  },
+  "flex-layout.row#global__order-count": {
+    "children": [
+      "total-products.v2",
+      "order-by.v2"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
     }
   }
 }
